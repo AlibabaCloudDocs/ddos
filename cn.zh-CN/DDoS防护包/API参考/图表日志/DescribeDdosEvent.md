@@ -2,6 +2,8 @@
 
 调用DescribeDdosEvent接口查看指定防护包上的DDoS事件。
 
+**说明：** DDoS防护包的API接口目前仅对企业版DDoS防护包用户开放。
+
 ## 请求参数 {#section_0jj_pcr_rj0 .section}
 
 |名称|类型|是否必选|描述|
