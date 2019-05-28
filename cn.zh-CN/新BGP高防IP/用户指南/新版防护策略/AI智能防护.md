@@ -8,16 +8,14 @@ AI智能防护基于阿里云的大数据能力，通过智能分析引擎自学
 2.  定位到**防护** \> **防护设置** \> **CC防护策略**。
 3.  选择需要设置AI智能防护的域名（以example.aliyundemo.com为例），开启AI智能防护开关。 
 
-    **说明：** 开启AI智能防护功能时，请确保已开启精准访问控制。
-
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/156918/155896074444284_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/156918/155901021044284_zh-CN.png)
 
 
 界面提示：“修改AI智能防护状态成功”，表示该功能已经开启。
 
 开启AI智能防护后，当检测到恶意攻击行为时，高防实例自动下发防护规则，具体规则条目在精准防护控制模块中查看，规则名称以“smartcc\_” 开头。如下图所示：
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/156918/155896074444285_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/156918/155901021044285_zh-CN.png)
 
 **说明：** 智能防护下发的规则存在有效期，超过有效期，防护规则会自动失效并清除。
 
