@@ -13,27 +13,27 @@
 
 以下操作描述建立在您的域名DNS托管在[阿里云云解析DNS](https://wanwang.aliyun.com/domain/dns)。若您使用其他DNS服务商的域名解析服务，请登录服务商系统，将防护域名的解析A记录值更新为关联的高防IP。
 
-**说明：** 云解析DNS是阿里云提供的域名解析服务，支持免费的公共DNS服务和付费版增值服务。如果您的域名已开通付费版云解析DNS服务，我们推荐您使用NS接入（即自动修改DNS）的方式接入新BGP高防。具体操作请参见[NS接入](cn.zh-CN/新BGP高防IP/用户指南/NS接入.md#)。
+**说明：** 云解析DNS是阿里云提供的域名解析服务，支持免费的公共DNS服务和付费版增值服务。如果您的域名已开通付费版云解析DNS服务，我们推荐您使用NS接入（即自动修改DNS）的方式接入新BGP高防。具体操作请参见[NS接入](cn.zh-CN/新BGP高防IP/用户指南/NS方式接入网站业务.md#)。
 
-假设在步骤1添加网站配置中，您添加的防护域名为`ddoscoo.doctest.top`；以下操作示例描述了在云解析DNS控制台修改/新增域名解析A记录的具体步骤。
+假设在步骤1添加网站配置中，您添加的防护域名为`bgp.ddostest.com`；以下操作示例描述了在云解析DNS控制台修改/新增域名解析A记录的具体步骤。
 
 1.  登录[阿里云云解析DNS控制台](https://dns.console.aliyun.com)[阿里云云解析DNS控制台](https://partners-dns.console.aliyun.com)。
-2.  在域名解析页面，定位到要操作的域名（本示例中为`doctest.top`），单击其操作列下的**解析设置**。![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188415/155892053145866_zh-CN.png)
+2.  在域名解析页面，定位到要操作的域名（本示例中为`ddostest.com`），单击其操作列下的**解析设置**。![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188415/156133967645866_zh-CN.png)
 
 
-3.  在解析设置页面，定位到要修改的解析A记录（本示例中，即主机记录为**ddoscoo**的A记录），单击其操作列下的**修改**。 
+3.  在解析设置页面，定位到要修改的解析A记录（本示例中，即主机记录为**bgp**的A记录），单击其操作列下的**修改**。 
 
     **说明：** 如果要操作的解析A记录不在记录列表中，您可以单击**添加记录**。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188415/155892053145867_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188415/156133967745867_zh-CN.png)
 
 4.  在修改记录（或添加记录）对话框，将**记录值**修改为域名的关联高防IP。 
 
     **说明：** 当您在新BGP高防IP控制台成功添加域名配置后，新BGP高防为域名分配一个关联高防IP。您可以在[新BGP高防IP控制台](https://yundunnext.console.aliyun.com/?p=ddoscoo)[新BGP高防IP控制台](https://partners-yundunnext.console.aliyun.com/?p=ddoscoo)，**管理** \> **网站配置**页面，查看已添加域名的关联高防IP。具体请参见[步骤1：添加网站配置](cn.zh-CN/新BGP高防IP/快速入门/防护网站业务/步骤1：添加网站配置.md#)。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188415/155892053145904_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188415/156133967745904_zh-CN.png)
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188415/155892053145868_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188415/156133967745868_zh-CN.png)
 
 5.  单击**确定**，等待修改后的解析设置生效。
 
