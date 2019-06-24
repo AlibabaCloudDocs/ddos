@@ -15,7 +15,7 @@
 
 1.  登录[云盾新BGP高防IP控制台](https://yundunnext.console.aliyun.com/?p=ddoscoo)。
 2.  在左侧导航栏，单击**管理** \> **网站配置**。
-3.  在网站配置列表中，定位到要操作的域名，单击其操作列下的**防护设置**。![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188492/155892072945987_zh-CN.png)
+3.  在网站配置列表中，定位到要操作的域名，单击其操作列下的**防护设置**。![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188492/156133970145987_zh-CN.png)
 
 
 4.  在防护设置页面，打开DDoS防护策略页签，根据需要执行以下操作： 
@@ -26,28 +26,28 @@
         -   **宽松**：针对攻击特征显著的恶意IP进行防护，防护效果弱，误杀率低。
         -   **正常**：针对攻击特征明显、可疑的恶意IP进行防护，平衡防护效果及误杀率。
         -   **严格**：针对有攻击特征的请求IP进行防护，攻击防御效果强，但存在一定数量的误杀。
-        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188492/155892072945943_zh-CN.png)
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188492/156133970245943_zh-CN.png)
 
-        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188492/155892072945944_zh-CN.png)
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188492/156133970245944_zh-CN.png)
 
     -   **黑白名单** 
 
         **说明：** 黑白名单的配置仅针对单个网站域名生效，而不是针对整个新BGP高防IP实例。
 
-        单击**手动添加**，添加黑名单或白名单。具体操作请参见[网站访问黑白名单配置](cn.zh-CN/新BGP高防IP/用户指南/网络七层防护设置/网站访问黑白名单配置.md#)。
+        单击**手动添加**，添加黑名单或白名单。具体操作请参见[网站访问黑白名单配置](cn.zh-CN/新BGP高防IP/用户指南/网络七层防护设置/设置网站访问黑白名单.md#)。
 
-        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188492/155892072945949_zh-CN.png)
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188492/156133970245949_zh-CN.png)
 
     -   **黑洞解封** 
 
-        对于处于黑洞状态下的实例，单击其操作列下的**解封**。具体操作请参见[黑洞解封](cn.zh-CN/新BGP高防IP/用户指南/网络七层防护设置/黑洞解封.md#)。
+        对于处于黑洞状态下的实例，单击其操作列下的**解封**。具体操作请参见[黑洞解封](cn.zh-CN/新BGP高防IP/用户指南/网络四层防护设置/手动解除黑洞状态.md#)。
 
-        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188492/155892072945950_zh-CN.png)
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188492/156133970245950_zh-CN.png)
 
     -   **流量封禁** 
 
-        定位到要操作的实例，单击其操作列下的**封禁**，封禁电信或联通线路的海外流量。具体操作请参见[流量封禁](cn.zh-CN/新BGP高防IP/用户指南/网络七层防护设置/流量封禁.md#)。
+        定位到要操作的实例，单击其操作列下的**封禁**，封禁电信或联通线路的海外流量。具体操作请参见[流量封禁](cn.zh-CN/新BGP高防IP/用户指南/网络四层防护设置/主动封禁海外流量.md#)。
 
-        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188492/155892072945951_zh-CN.png)
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188492/156133970245951_zh-CN.png)
 
 
