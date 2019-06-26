@@ -24,7 +24,7 @@
     -   推荐您选择[DDoS高防（国际）出海套餐](https://package-buy.aliyun.com/?planId=1019020001141701&accounttraceid=eb315d7e-bd27-4f6a-a2f2-aeab6168a552#/buy)。
     -   更多详情，请参见[DDoS高防（国际）](../../../../cn.zh-CN/DDoS高防（国际）/产品简介/什么是DDoS高防（国际）.md#)和[加速线路](../../../../cn.zh-CN/DDoS高防（国际）/产品定价/加速线路.md#)。
 
- | **DDoS高防安全解决方案架构** ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/669216/156147901850168_zh-CN.png)
+ | **DDoS高防安全解决方案架构** ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/669216/156151766650168_zh-CN.png)
 
  |
 
@@ -39,7 +39,7 @@
 
 |针对这些场景，推荐您选择阿里云原生DDoS防护安全解决方案[DDoS防护包](https://common-buy.aliyun.com/?commodityCode=ddosbgp#/buy)。 更多详情，请参见[DDoS防护包](../../../../cn.zh-CN/DDoS防护包/产品简介/什么是DDoS防护包.md#)。
 
- | **DDoS防护包安全解决方案架构** ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/669216/156147901850169_zh-CN.png)
+ | **DDoS防护包安全解决方案架构** ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/669216/156151766750169_zh-CN.png)
 
  |
 
