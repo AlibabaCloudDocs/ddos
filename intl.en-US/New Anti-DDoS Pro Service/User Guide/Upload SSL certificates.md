@@ -12,7 +12,7 @@ To use Anti-DDoS Pro to filter HTTPS traffic, you must select HTTPS in the domai
 
 1.   Log on to the [Anti-DDoS Pro console](https://partners-yundunnext.console.aliyun.com/?p=ddoscoo). 
 2.   In the left-side navigation pane, choose **Management** \> **Websites**. 
-3.   In the Websites list, select your domain and click the upload icon in the **Certificate Status** column.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188520/156154097645762_en-US.png)
+3.   In the Websites list, select your domain and click the upload icon in the **Certificate Status** column.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188520/156160009645762_en-US.png)
 
   
 4.   In the Upload SSL Certificate and Private Key dialog box, select an **Upload Method** and specify the parameters. You can select from one of the following methods to upload your certificate. 
@@ -20,7 +20,7 @@ To use Anti-DDoS Pro to filter HTTPS traffic, you must select HTTPS in the domai
 
         If you have uploaded your SSL certificate to Alibaba Cloud SSL Certificates Service, you can directly select an existing certificate for upload.
 
-        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188520/156154097645763_en-US.png)
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188520/156160009745763_en-US.png)
 
         If your certificate is not hosted on SSL Certificates Service, you can click **Go to the SSL Certificates console** to upload your certificate first. For more information about uploading certificates to SSL Certificates Service, see [Upload certificates](../../../../reseller.en-US/User Guide/Upload certificates.md#).
 
@@ -48,7 +48,7 @@ To use Anti-DDoS Pro to filter HTTPS traffic, you must select HTTPS in the domai
         -----END RSA PRIVATE KEY-----
         ```
 
-        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188520/156154097645764_en-US.png)
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188520/156160009745764_en-US.png)
 
 5.   Click **OK**. 
 
