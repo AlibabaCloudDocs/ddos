@@ -4,8 +4,8 @@
 
 根据您的业务类型，选择查看相应的操作步骤：
 
--    [将网站类业务接入新BGP高防IP实例进行防护](#section_x4h_ztb_kgb) 
--    [将非网站类业务接入新BGP高防IP实例进行防护](#section_chb_zwb_kgb) 
+-   [将网站类业务接入新BGP高防IP实例进行防护](#section_x4h_ztb_kgb)
+-   [将非网站类业务接入新BGP高防IP实例进行防护](#section_chb_zwb_kgb)
 
 ## 将网站类业务接入新BGP高防IP实例进行防护 {#section_x4h_ztb_kgb .section}
 
@@ -13,7 +13,7 @@
 
     定位到**管理** \> **实例列表**页面，您可以查看已购买的新BGP高防IP实例。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79685/156151581036654_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79685/156206379836654_zh-CN.png)
 
 2.  定位到**管理** \> **网站配置**页面，选择新BGP高防IP实例，单击**添加网站**。
 
@@ -21,7 +21,7 @@
 
 3.  根据您所需添加防护的网站情况，填写网站信息。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79685/156151581136657_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79685/156206379836657_zh-CN.png)
 
     |配置项|描述|
     |---|--|
@@ -33,15 +33,38 @@
     |协议类型|选择网站支持的协议类型。默认勾选HTTP和HTTPS协议类型。 **说明：** 如果您的网站的访问支持HTTPS加密认证时，必须勾选HTTPS协议类型。同时，您可以根据网站实际所支持的协议类型勾选其它协议类型。
 
  |
+    |启用HTTP2|如果您的业务支持HTTP2.0协议，可开启该开关进行防护。 **说明：** 启用HTTP2防护，需要符合以下要求：
+
+    -   您的网站域名配置已关联增强功能套餐的新BGP高防实例。
+    -   您已勾选**HTTPS**协议类型。
+ | | |
     |服务器地址|选择源站地址类型并指定网站的源站服务器地址。     -   如果选择源站IP类型，支持最多配置20个源站IP。配置多个源站IP后，新BGP高防IP实例将以IP Hash的方式转发网站访问流量至源站，自动实现源站的负载均衡。
     -   如果您在新BGP高防IP实例后还需要部署Web应用防火墙（WAF）提升应用安全防护能力，您可以选择源站域名类型并填写WAF实例所分配的CNAME信息。
 
 具体配置方法，请查看[高防IP+云盾WAF同时使用最佳实践](../../../../intl.zh-CN/DDoS高防IP/最佳实践/"高防IP+云盾WAF"同时使用.md#)。
 
  |
-    |服务器端口/转发端口|根据您所选择的协议类型自动指定相应端口，暂时不支持设置非标端口，因此无法修改。     -   当协议类型为HTTP或Websocket时，默认服务器端口为80。
-    -   协议类型为HTTPS或Websockets时，默认服务器端口为443。
- 同时，转发端口与服务器端口保持一致。|
+    |服务器端口/转发端口|根据您所选择的协议类型指定相应端口。 **说明：** 转发端口与服务器端口保持一致。
+
+     -   协议类型为**HTTP**或**Websocket**时，默认服务器端口为80。
+    -   协议类型为**HTTPS**或**Websockets**时，默认服务器端口为443。
+
+**说明：** HTTP2.0协议的端口与HTTPS端口保持一致。
+
+ 支持添加自定义端口。您可以单击**自定义**，并从可选端口范围中，选择配置默认端口以外的端口。
+
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188414/156206379845781_zh-CN.png)
+
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188414/156206379845782_zh-CN.png)
+
+    -   标准功能套餐实例：可选的HTTP/Websocket端口范围为80，8080；可选的HTTPS/Websockets端口范围为443，8443。
+    -   增强功能套餐实例：可选的HTTP/Websocket端口范围和HTTPS/Websockets端口范围分别如下图所示。
+
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188414/156206379845783_zh-CN.png)
+
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188414/156206379949775_zh-CN.png)
+
+ |
     |选择高防IP|根据实际需要选择已购买的新BGP高防IP实例。 **说明：** 一个域名最多支持配置8个新BGP高防IP实例。
 
  |
@@ -52,7 +75,7 @@
 
     强烈建议您在切换网站访问流量前，验证并确认新BGP高防IP实例转发配置已经生效。具体网站转发配置验证方法，请查看[网站配置生效测试](../../../../intl.zh-CN/DDoS高防IP/快速入门/防护网站业务/步骤3：验证配置生效.md#)。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79685/156151581136696_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79685/156206379936696_zh-CN.png)
 
 5.  单击**下一步**，你可以查看新BGP高防IP实例所使用的回源IP地址。
 
@@ -80,7 +103,7 @@
 
 3.  根据您的实际业务情况，配置转发规则。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79685/156151581136742_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79685/156206379936742_zh-CN.png)
 
     |配置项|描述|
     |---|--|
