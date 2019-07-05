@@ -4,11 +4,10 @@ This topic summarizes all callable Anti-DDoS Pro APIs. For more information abou
 
 For more information about API resources, visit [API Explorer](https://api.aliyun.com).
 
-## Instances { .section}
+## Instances {#section_x7p_eul_4g8 .section}
 
 |API|Description|
 |[DescribeInstances](reseller.en-US/New Anti-DDoS Pro Service/API Reference/Instances/DescribeInstances.md#)|Query all instances.|
-|[ReleaseInstance](reseller.en-US/New Anti-DDoS Pro Service/API Reference/Instances/ReleaseInstance.md#)|Release instances.|
 |[DescribeInstanceDetails](reseller.en-US/New Anti-DDoS Pro Service/API Reference/Instances/DescribeInstanceDetails.md#)|Query instance details.|
 |[DescribeInstanceSpecs](reseller.en-US/New Anti-DDoS Pro Service/API Reference/Instances/DescribeInstanceSpecs.md#)|Query instance configurations.|
 |[DescribeInstanceStatistics](reseller.en-US/New Anti-DDoS Pro Service/API Reference/Instances/DescribeInstanceStatistics.md#)|Query rules configured on instances.|
@@ -16,7 +15,7 @@ For more information about API resources, visit [API Explorer](https://api.aliyu
 |[ModifyElasticBandWidth](reseller.en-US/New Anti-DDoS Pro Service/API Reference/Instances/ModifyElasticBandWidth.md#)|Modify the burstable bandwidth of instances.|
 |[ModifyInstanceRemark](reseller.en-US/New Anti-DDoS Pro Service/API Reference/Instances/ModifyInstanceRemark.md#)|Modify the remarks on instances.|
 
-## Layer 4 rules { .section}
+## Layer 4 rules {#section_z52_0a0_vst .section}
 
 |API|Description|
 |[CreateLayer4Rule](reseller.en-US/New Anti-DDoS Pro Service/API Reference/Layer 4 rules/CreateLayer4Rule.md#)|Create layer 4 forwarding rules.|
@@ -29,7 +28,7 @@ For more information about API resources, visit [API Explorer](https://api.aliyu
 |[DescribeHealthCheckList](reseller.en-US/New Anti-DDoS Pro Service/API Reference/Layer 4 rules/DescribeHealthCheckList.md#)|Query layer 4 or layer 7 health check settings.|
 |[DescribeHealthCheckStatusList](reseller.en-US/New Anti-DDoS Pro Service/API Reference/Layer 4 rules/DescribeHealthCheckStatusList.md#)|Query health check status.|
 
-## Layer 7 rules { .section}
+## Layer 7 rules {#section_i56_5xa_lni .section}
 
 |API|Description|
 |[DescribeDomains](reseller.en-US/New Anti-DDoS Pro Service/API Reference/Layer 7 rules/DescribeDomains.md#)|Query layer 7 forwarding rules.|
@@ -53,14 +52,14 @@ For more information about API resources, visit [API Explorer](https://api.aliyu
 |[ConfigDomainAccessMode](reseller.en-US/New Anti-DDoS Pro Service/API Reference/Layer 7 rules/ConfigDomainAccessMode.md#)|Configure the modes that are used to set up instances.|
 |[DescribeBackSourceCidr](reseller.en-US/New Anti-DDoS Pro Service/API Reference/Layer 7 rules/DescribeBackSourceCidr.md#)|Query back-to-origin CIDR blocks.|
 
-## Tasks { .section}
+## Tasks {#section_u81_p9f_vpm .section}
 
 |API|Description|
 |[ListAsyncTask](reseller.en-US/New Anti-DDoS Pro Service/API Reference/Tasks/ListAsyncTask.md#)|Query asynchronous tasks.|
 |[CreateAsyncTask](reseller.en-US/New Anti-DDoS Pro Service/API Reference/Tasks/CreateAsyncTask.md#)|Create asynchronous tasks.|
 |[DeleteAsyncTask](reseller.en-US/New Anti-DDoS Pro Service/API Reference/Tasks/DeleteAsyncTask.md#)|Delete asynchronous tasks.|
 
-## Logs { .section}
+## Logs {#section_ped_unl_n72 .section}
 
 |API|Description|
 |[DescribeOpEntities](reseller.en-US/New Anti-DDoS Pro Service/API Reference/Logs/DescribeOpEntities.md#)|Query operation logs.|

@@ -4,12 +4,11 @@
 
 关于更多API资源，请访问[API Explorer](https://api.aliyun.com)。
 
-## 实例 { .section}
+## 实例 {#section_unj_zxk_a70 .section}
 
 |API|描述|
 |---|--|
 |[DescribeInstances](intl.zh-CN/新BGP高防IP/API 参考/实例/DescribeInstances.md#)|查询实例列表。|
-|[ReleaseInstance](intl.zh-CN/新BGP高防IP/API 参考/实例/ReleaseInstance.md#)|释放实例。|
 |[DescribeInstanceDetails](intl.zh-CN/新BGP高防IP/API 参考/实例/DescribeInstanceDetails.md#)|查询实例详情列表。|
 |[DescribeInstanceSpecs](intl.zh-CN/新BGP高防IP/API 参考/实例/DescribeInstanceSpecs.md#)|查询实例规格列表。|
 |[DescribeInstanceStatistics](intl.zh-CN/新BGP高防IP/API 参考/实例/DescribeInstanceStatistics.md#)|查询实例统计信息。|
@@ -17,7 +16,7 @@
 |[ModifyElasticBandWidth](intl.zh-CN/新BGP高防IP/API 参考/实例/ModifyElasticBandWidth.md#)|修改弹性防护带宽。|
 |[ModifyInstanceRemark](intl.zh-CN/新BGP高防IP/API 参考/实例/ModifyInstanceRemark.md#)|修改实例备注信息。|
 
-## 4层规则 { .section}
+## 4层规则 {#section_x0y_5bc_o3d .section}
 
 |API|描述|
 |---|--|
@@ -31,7 +30,7 @@
 |[DescribeHealthCheckList](intl.zh-CN/新BGP高防IP/API 参考/四层规则/DescribeHealthCheckList.md#)|查询4层/7层健康检查列表。|
 |[DescribeHealthCheckStatusList](intl.zh-CN/新BGP高防IP/API 参考/四层规则/DescribeHealthCheckStatusList.md#)|查询健康检查状态。|
 
-## 7层规则 { .section}
+## 7层规则 {#section_mfi_o0o_uoa .section}
 
 |API|描述|
 |---|--|
@@ -56,7 +55,7 @@
 |[ConfigDomainAccessMode](intl.zh-CN/新BGP高防IP/API 参考/七层规则/ConfigDomainAccessMode.md#)|设置域名接入模式。|
 |[DescribeBackSourceCidr](intl.zh-CN/新BGP高防IP/API 参考/七层规则/DescribeBackSourceCidr.md#)|查询回源网段。|
 
-## 事件任务 { .section}
+## 事件任务 {#section_ozh_spk_l5d .section}
 
 |API|描述|
 |---|--|
@@ -64,7 +63,7 @@
 |[CreateAsyncTask](intl.zh-CN/新BGP高防IP/API 参考/事件任务/CreateAsyncTask.md#)|创建异步任务。|
 |[DeleteAsyncTask](intl.zh-CN/新BGP高防IP/API 参考/事件任务/DeleteAsyncTask.md#)|删除异步任务。|
 
-## 日志 { .section}
+## 日志 {#section_96f_e2b_y1a .section}
 
 |API|描述|
 |---|--|
