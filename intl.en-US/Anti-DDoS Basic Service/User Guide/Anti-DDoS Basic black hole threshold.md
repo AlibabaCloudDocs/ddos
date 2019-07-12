@@ -9,22 +9,26 @@ Anti-DDoS Basic may actively trigger a black hole to lock network access to the 
 
 |Region|Solo-Core CPU ECS|Duo-Core CPU ECS|Quad-Core or higher CPU ECS|SLB, WAF and EIP|
 |------|-----------------|----------------|---------------------------|----------------|
-|East China 1|500 M|1 G|5 G|5 G|
-|East China 2|500 M|1 G|2 G|2 G|
-|North China 1|500 M|1 G|5 G|5 G|
-|North China 2|500 M|1 G|2 G|2 G|
-|North China 3|500 M|1 G|2 G|2 G|
-|South China 1|500 M|1 G|2 G|2 G|
+|China \(Hangzhou\)|500 M|1 G|5 G|5 G|
+|China \(Shanghai\)|500 M|1 G|2 G|2 G|
+|China \(Qingdao\)|500 M|1 G|5 G|5 G|
+|China \(Beijing\)|500 M|1 G|2 G|2 G|
+|China \(Zhangjiakou\)|500 M|1 G|2 G|2 G|
+|China \(Hohhot\)|500 M|1 G|2 G|2 G|
+|China \(Shenzhen\)|500 M|1 G|2 G|2 G|
+|China \(Chengdu\)|500 M|1 G|2 G|2 G|
 |Hong Kong|500 M|500 M|500 M|500 M|
-|US East 1|500 M|1 G|2 G|2 G|
-|US West 1|500 M|500 M|500 M|500 M|
-|Tokyo|500 M|500 M|500 M|500 M|
 |Singapore|500 M|500 M|500 M|500 M|
-|Sydney|500 M|500 M|500 M|500 M|
-|Kuala Lumpur|500 M|500 M|500 M|500 M|
-|Mumbai|500 M|1 G|1 G|1 G|
-|Frankfurt|500 M|500 M|500 M|500 M|
-|Dubai|500 M|500 M|500 M|500 M|
+|Australia \(Sydney\)|500 M|500 M|500 M|500 M|
+|Malaysia \(Kuala Lumpur\)|500 M|500 M|500 M|500 M|
+|Indonesia \(Jakarta\)|500 M|500 M|500 M|500 M|
+|Japan \(Tokyo\)|500 M|500 M|500 M|500 M|
+|Germany \(Frankfurt\)|500 M|500 M|500 M|500 M|
+|UK \(London\)|500 M|500 M|500 M|500 M|
+|US \(Silicon Valley\)|500 M|1 G|2 G|2 G|
+|US \(Virginia\)|500 M|500 M|500 M|500 M|
+|India \(Mumbai\)|500 M|1 G|1 G|1 G|
+|UAE \(Dubai\)|500 M|500 M|500 M|500 M|
 
 The black hole duration is the amount of time the triggered black hole lasts, 2.5 hours by default. The actual black hole duration varies from 30 minutes to 24 hours, depending on attack intensity. Additionally, the following factors are considered:
 
@@ -37,11 +41,11 @@ The black hole duration is the amount of time the triggered black hole lasts, 2.
 
 To check the actual black hole threshold of your ECS, SLB, or EIP instance, follow these steps:
 
-1.  Log on to [Alibaba Cloud Anti-DDoS Basic console](https://yundun.console.aliyun.com/?p=ddosnext).
+1.  Log on to [Alibaba Cloud Anti-DDoS Basic console](https://partners-intl.console.aliyun.com/#/ddosnext).
 2.  Select the region.
 3.  On the **Anti-DDoS Basic** \> **Instances** page, select the instance type tab: **ECS**, **SLB**, or **EIP \(including NAT\)**.
 4.  Locate the instance, and check the actual black hole threshold of the instance in the **Current Protection Threshold** column.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79459/156091102434180_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79459/156291817134180_en-US.png)
 
 
