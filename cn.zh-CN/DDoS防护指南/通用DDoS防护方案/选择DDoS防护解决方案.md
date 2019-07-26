@@ -7,20 +7,14 @@
 | 高风险DDoS攻击防御场景具体包含以下特点：
 
 -   遭受恶意攻击者的DDoS攻击勒索
--   遭受的DDoS攻击已经导致您的业务不可用，需要紧急恢复
--   频繁遭受DDoS攻击，需要持续的DDoS防护安全方案保护业务的稳定性
+-   DDoS攻击已经导致您的业务不可用，需要紧急恢复
+-   频繁遭受DDoS攻击，需要持续防护DDoS攻击，保护业务的稳定性
 
- 针对这些场景，推荐您根据业务的部署情况，选择以下阿里云DDoS防护安全解决方案： -   业务部署在**中国大陆**地域，且业务的主要目标用户为**中国大陆**地区用户：
-    -   推荐您选择[新BGP高防服务](https://common-buy.aliyun.com/?commodityCode=ddoscoo#/buy)。
-    -   更多详情，请参见[新BGP高防](../../../../cn.zh-CN/新BGP高防IP/产品简介/什么是新BGP高防IP.md#)。
--   业务部署在**非中国大陆**地域，且业务的主要目标用户为**非中国大陆**地区用户：
-    -   推荐您选择[DDoS高防（国际）服务](https://common-buy.aliyun.com/?commodityCode=ddosDip#/buy)。
-    -   更多详情，请参见[DDoS高防（国际）](../../../../cn.zh-CN/DDoS高防（国际）/产品简介/什么是DDoS高防（国际）.md#)。
--   业务部署在**非中国大陆**地域，且业务的主要目标用户为**中国大陆**地区用户：
-    -   推荐您选择[DDoS高防（国际）出海套餐](https://package-buy.aliyun.com/?planId=1019020001141701&accounttraceid=eb315d7e-bd27-4f6a-a2f2-aeab6168a552#/buy)。
-    -   更多详情，请参见[DDoS高防（国际）](../../../../cn.zh-CN/DDoS高防（国际）/产品简介/什么是DDoS高防（国际）.md#)和[加速线路](../../../../cn.zh-CN/DDoS高防（国际）/产品定价/加速线路.md#)。
+ 针对这些场景，推荐您根据业务的部署情况，选择以下阿里云DDoS防护安全解决方案： -   业务部署在**中国大陆**地域，且业务的主要目标用户为**中国大陆**地区用户， 推荐您选择[新BGP高防服务](https://common-buy.aliyun.com/?commodityCode=ddoscoo#/buy)。更多详情，请参见[新BGP高防](../../../../cn.zh-CN/新BGP高防IP/产品简介/什么是新BGP高防IP.md#)。
+-   业务部署在**非中国大陆**地域，且业务的主要目标用户为**非中国大陆**地区用户，推荐您选择[DDoS高防（国际）服务](https://common-buy.aliyun.com/?commodityCode=ddosDip#/buy)。更多详情，请参见[DDoS高防（国际）](../../../../cn.zh-CN/DDoS高防（国际）/产品简介/什么是DDoS高防（国际）.md#)。
+-   业务部署在**非中国大陆**地域，且业务的主要目标用户为**中国大陆**地区用户，推荐您选择[DDoS高防（国际）出海套餐](https://package-buy.aliyun.com/?planId=1019020001141701&accounttraceid=eb315d7e-bd27-4f6a-a2f2-aeab6168a552#/buy)。更多详情，请参见[DDoS高防（国际）](../../../../cn.zh-CN/DDoS高防（国际）/产品简介/什么是DDoS高防（国际）.md#)和[加速线路](../../../../cn.zh-CN/DDoS高防（国际）/产品定价/加速线路.md#)。
 
- |**DDoS高防安全解决方案架构**![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/669216/156412262650168_zh-CN.png)
+ |**DDoS高防安全解决方案架构**![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/669216/156412284250168_zh-CN.png)
 
 |
 
@@ -35,7 +29,7 @@
 
  针对这些场景，推荐您选择阿里云原生DDoS防护安全解决方案[DDoS防护包](https://common-buy.aliyun.com/?commodityCode=ddosbgp#/buy)。 更多详情，请参见[DDoS防护包](../../../../cn.zh-CN/DDoS防护包/产品简介/什么是DDoS防护包.md#)。
 
- |**DDoS防护包安全解决方案架构**![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/669216/156412262750169_zh-CN.png)
+ |**DDoS防护包安全解决方案架构**![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/669216/156412284250169_zh-CN.png)
 
 |
 
