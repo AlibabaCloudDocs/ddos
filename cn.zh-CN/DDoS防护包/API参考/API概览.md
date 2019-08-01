@@ -39,4 +39,5 @@
 |--|--|
 |[DescribeDdosEvent](cn.zh-CN/DDoS防护包/API参考/图表日志/DescribeDdosEvent.md#)|查询指定防护包上的DDoS事件。|
 |[DescribeOpEntities](cn.zh-CN/DDoS防护包/API参考/图表日志/DescribeOpEntities.md#)|查询用户的操作日志。|
+|[DescribeTraffic](cn.zh-CN/DDoS防护包/API参考/图表日志/DescribeTraffic.md#)|查询指定防护包上的流量信息。|
 
