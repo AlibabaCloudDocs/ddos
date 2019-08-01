@@ -2,6 +2,8 @@
 
 If the two advanced mitigations for the month of an Anti-DDoS Premium Insurance Plan instance has been used up, you can purchase additional global advanced mitigations to achieve more unlimited mitigation capabilities.
 
+**Note:** Sales of global advanced mitigation is suspended temporarily. For now, you cannot purchase new global advanced mitigations. We are sorry for causing you inconvenience.
+
 Each month, Anti-DDoS Premium Insurance Plan provides two advanced mitigations by default, featuring unlimited mitigation capabilities. This protects your businesses against DDoS attacks within 24 hours after an attack has been detected, and consumes one advanced mitigation.
 
 If the business suffers from frequent large-traffic attacks, the two advanced mitigations of Anti-DDoS Premium Insurance Plan may be not enough to guarantee the service availability. In this case, you can purchase global advanced mitigations to obtain more advanced mitigations for the Anti-DDoS Premium instances in your account.
@@ -29,7 +31,7 @@ After you purchase an Anti-DDoS Premium instance, you can purchase additional gl
 1.  Log on to the [Anti-DDoS Premium console](https://yundunnext.console.aliyun.com/?p=ddosdip#/anycast/asset).
 2.  On the **Instance List** page, click **Purchase**.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/119523/155982413638215_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/119523/156462448738215_en-US.png)
 
 3.  On the Global Advanced Mitigation purchase page, select the quantity, and click **Buy Now**.
 
@@ -56,5 +58,5 @@ After you purchase an Anti-DDoS Premium instance, you can purchase additional gl
 |Advanced mitigation of Insurance Plan|Instance|1 month **Note:** Advanced mitigation that is unconsumed in the current month will be cleared at the beginning of next month.
 
  |Twice each month|
-|Global advanced mitigation|Account|3 years|Purchase separately|
+|Global advanced mitigation|Account|1 year|Purchase separately|
 
