@@ -25,7 +25,7 @@
 
 建议阿里云用户从以下几个方面着手缓解DDoS攻击的威胁：
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79431/156395748634235_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79431/156463920734235_zh-CN.png)
 
 -   缩小暴露面，隔离资源和不相关的业务，降低被攻击的风险。
     -   配置安全组
@@ -108,7 +108,7 @@
 
         针对网站类应用，例如常见的http Flood\(CC攻击\)攻击，可以使用WAF可以提供针对连接层攻击、会话层攻击和应用层攻击进行有效防御。
 
-        关于WAF的详细介绍，请查看[WAF用户指南](../../../../cn.zh-CN/用户指南/WAF使用指南.md#)。
+        关于WAF的详细介绍，请查看[WAF功能使用概览](../../../../cn.zh-CN/用户指南/WAF功能使用概览.md#)。
 
     -   DDoS防护包
 
