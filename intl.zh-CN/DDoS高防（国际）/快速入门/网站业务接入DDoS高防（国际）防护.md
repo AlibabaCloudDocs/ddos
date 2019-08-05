@@ -47,20 +47,13 @@
 
  支持添加自定义端口。您可以单击**自定义**，并从可选端口范围中，选择配置默认端口以外的端口。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188414/156406476745781_zh-CN.png)
-
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188414/156406476845782_zh-CN.png)
-
      -   标准功能套餐实例：可选的HTTP/Websocket端口范围为80，8080；可选的HTTPS/Websockets端口范围为443，8443。
-    -   增强功能套餐实例：可选的HTTP/Websocket端口范围和HTTPS/Websockets端口范围分别如下图所示。
+    -   增强功能套餐实例：支持特定非标端口，具体支持范围请参见[自定义非标端口](intl.zh-CN/DDoS高防（国际）/用户指南/接入配置/自定义非标端口.md#)。
+ ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188414/156497454645782_zh-CN.png)
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188414/156406476845783_zh-CN.png)
+|
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188414/156406476849775_zh-CN.png)
-
- |
-
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79670/156406476835231_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79670/156497454635231_zh-CN.png)
 
 4.  在该网站的域名解析服务提供商处，修改该网站域名的DNS解析记录。 
 
@@ -73,7 +66,7 @@
 
         各DNS服务提供商A记录的设置页面不同，请以实际页面为准，下图举例的添加A记录页面仅供参考。
 
-        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79670/156406476835255_zh-CN.png)
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79670/156497454635255_zh-CN.png)
 
     3.  等待DNS解析配置生效，您的网站业务流量即切换至DDoS高防（国际）实例进行防护。 
 
