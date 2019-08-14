@@ -17,7 +17,7 @@
 |华北5（呼和浩特）|500 M|1 G|2 G|2 G|
 |华南1（深圳）|500 M|1 G|2 G|2 G|
 |西南1（成都）|500 M|1 G|2 G|2 G|
-|香港|500 M|500 M|500 M|500 M|
+|中国香港|500 M|500 M|500 M|500 M|
 |新加坡|500 M|500 M|500 M|500 M|
 |澳大利亚（悉尼）|500 M|500 M|500 M|500 M|
 |马来西亚（吉隆坡）|500 M|500 M|500 M|500 M|
@@ -46,6 +46,6 @@
 3.  在**基础防护** \> **实例**页面，选择要操作的实例类型：**ECS**、**SLB**、**EIP（含NAT）**。
 4.  在实例列表选择要查看的实例，查看其**当前防护阈值**。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79459/156291816334180_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79459/156577553534180_zh-CN.png)
 
 
