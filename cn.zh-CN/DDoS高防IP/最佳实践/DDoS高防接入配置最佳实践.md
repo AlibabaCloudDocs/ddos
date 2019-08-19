@@ -23,6 +23,7 @@
 |业务端口|判断源站业务端口是否在DDoS高防的支持端口范围内。 **说明：** 对于网站业务，DDoS高防目前仅支持80和443标准端口。
 
  |
+|业务是否有获取并校验真实源IP机制|接入DDoS高防后，真实源IP会发生变化。请确认是否要在源站上调整获取真实源IP配置，避免影响业务。|
 |业务是否使用TLS 1.0或弱加密套件|判断业务使用的加密套件是否支持。|
 |（针对HTTPS业务）服务端是否使用双向认证|DDoS高防暂不支持双向认证，需要变更认证方式。|
 |（针对HTTPS业务）客户端是否支持SNI标准|对于支持HTTPS协议的域名，接入DDoS高防后，客户端和服务端都需要支持SNI标准。|
@@ -119,7 +120,7 @@
 
         如果您发现有攻击流量透传到源站服务器的情况，建议您启用DDoS防护策略中的源、目的连接限速策略。在不完全清楚业务情况时，建议将新建连接限速和并发连接限速均设置为5。如果发现存在误拦截的现象，您可调整数值，适当放宽限速策略。
 
-        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/120396/156534032742169_zh-CN.png)
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/120396/156618140842169_zh-CN.png)
 
         **说明：** 
 
@@ -233,7 +234,7 @@
 
 购买开通云盾DDoS高防后，您可以在管理控制台中通过钉钉扫描二维码直接联系阿里云安全服务专家。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/120396/156534032738272_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/120396/156618140838272_zh-CN.png)
 
 安全专家将针对您的业务场景提供DDoS高防接入配置指导、安全攻击分析和防御相关安全服务，基于业务实际情况帮助您更好地使用DDoS高防对业务进行安全防护，保障您业务的网络安全。
 
