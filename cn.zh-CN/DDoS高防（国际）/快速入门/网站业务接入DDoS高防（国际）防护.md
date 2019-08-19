@@ -20,6 +20,7 @@
  |
     |**网站**|填写要防护的网站域名。 **说明：** 
 
+    -   根据域名命名规则，域名可以由26个英文字母（a-z、A-Z，不区分大小写）、数字（0-9）以及连接符（-）组成，但是域名的首位必须是字母或数字。
     -   支持填写泛域名，如`*.aliyun.com`。DDoS高防（国际）将自动匹配该泛域名对应的子域名。
     -   如果同时存在泛域名和精确域名配置（如`*.aliyun.com`和`www.aliyun.com`），DDoS高防（国际）优先使用精确域名所配置的转发规则和防护策略。
  |
@@ -49,11 +50,11 @@
 
      -   标准功能套餐实例：可选的HTTP/Websocket端口范围为80，8080；可选的HTTPS/Websockets端口范围为443，8443。
     -   增强功能套餐实例：支持特定非标端口，具体支持范围请参见[自定义非标端口](intl.zh-CN/DDoS高防（国际）/用户指南/接入配置/自定义非标端口.md#)。
- ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188414/156497454645782_zh-CN.png)
+ ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/188414/156619847045782_zh-CN.png)
 
 |
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79670/156497454635231_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79670/156619847035231_zh-CN.png)
 
 4.  在该网站的域名解析服务提供商处，修改该网站域名的DNS解析记录。 
 
@@ -66,7 +67,7 @@
 
         各DNS服务提供商A记录的设置页面不同，请以实际页面为准，下图举例的添加A记录页面仅供参考。
 
-        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79670/156497454635255_zh-CN.png)
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/79670/156619847135255_zh-CN.png)
 
     3.  等待DNS解析配置生效，您的网站业务流量即切换至DDoS高防（国际）实例进行防护。 
 
