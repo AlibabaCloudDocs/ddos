@@ -1,61 +1,85 @@
-# DescribeResourcePackStatistics {#reference_265093 .reference}
+# DescribeResourcePackStatistics {#doc_api_ddosbgp_DescribeResourcePackStatistics .reference}
 
 调用DescribeResourcePackStatistics接口查询抗D流量包的统计信息。
 
 **说明：** DDoS防护包的API接口目前仅对企业版DDoS防护包用户开放。
 
-## 请求参数 {#section_0jj_pcr_rj0 .section}
+## 调试 {#api_explorer .section}
 
-|名称|类型|是否必选|描述|
-|--|--|----|--|
-|Action|String|是|要执行的操作，取值：DescribeResourcePackStatistics。|
-|InstanceId|String|否|要查询的防护包实例ID。|
+[您可以在OpenAPI Explorer中直接运行该接口，免去您计算签名的困扰。运行成功后，OpenAPI Explorer可以自动生成SDK代码示例。](https://api.aliyun.com/#product=ddosbgp&api=DescribeResourcePackStatistics&type=RPC&version=2018-07-20)
 
-## 返回参数 {#section_1as_cc1_hc5 .section}
+## 请求参数 {#parameters .section}
 
-|名称|类型|描述|
-|--|--|--|
-|RequestId|String|本次请求的ID。|
-|AvailablePackNum|Integer|可用流量包数量。|
-|TotalCurrCapacity|Long|总可用防护流量，单位为Byte。|
-|TotalInitCapacity|Long|总初始防护流量，单位为Byte。|
-|TotalUsedCapacity|Long|总消耗防护流量，单位为Byte。|
+|名称|类型|是否必选|示例值|描述|
+|--|--|----|---|--|
+|Action|String|是|DescribeResourcePackStatistics|要执行的操作，取值：**DescribeResourcePackStatistics**。
 
-## 示例 {#section_b48_y6o_uop .section}
+ |
+|DdosRegionId|String|否|cn-hangzhou|实例所在地区ID。
+
+ |
+|InstanceId|String|否|ddosbgp-cn-x1|要查询的防护包实例ID。
+
+ |
+
+## 返回数据 {#resultMapping .section}
+
+|名称|类型|示例值|描述|
+|--|--|---|--|
+|AvailablePackNum|Integer|8|可用流量包数量。
+
+ |
+|RequestId|String|A2D6D5FB-FA07-41A8-B093-A2B7B26E72F2|本次请求的ID。
+
+ |
+|TotalCurrCapacity|Long|20831250000000|总可用防护流量，单位为Byte。
+
+ |
+|TotalInitCapacity|Long|427000000000000|总初始防护流量，单位为Byte。
+
+ |
+|TotalUsedCapacity|Long|5285439000000|总消耗防护流量，单位为Byte。
+
+ |
+
+## 示例 {#demo .section}
 
 请求示例
 
-``` {#codeblock_60x_v7t_oqo}
-https://ddosbgp.aliyuncs.com/?Action=DescribeResourcePackStatistics
-&InstanceId=ddosbgp-cn-x1
-&公共请求参数
+``` {#request_demo}
+
+http(s)://[Endpoint]/?Action=DescribeResourcePackStatistics
+&<公共请求参数>
+
 ```
 
 正常返回示例
 
--   `XML`格式
+`XML` 格式
 
-    ``` {#codeblock_yok_0bb_bul}
-    <?xml version='1.0' encoding='UTF-8'?>
-    <DescribeResourcePackStatisticsResponse>
-       <TotalInitCapacity>427000000000000</TotalInitCapacity>
-       <TotalUsedCapacity>5285439000000</TotalUsedCapacity>
-       <TotalCurrCapacity>20831250000000</TotalCurrCapacity>
-       <RequestId>B347DC57-F746-44B5-A2A1-B331A6655E96</RequestId>
-       <AvailablePackNum>8</AvailablePackNum>
-    </DescribeResourcePackStatisticsResponse>
-    ```
+``` {#xml_return_success_demo}
+<DescribeResourcePackStatisticsResponse>
+     <TotalInitCapacity>427000000000000</TotalInitCapacity>
+     <TotalUsedCapacity>5285439000000</TotalUsedCapacity>
+     <TotalCurrCapacity>20831250000000</TotalCurrCapacity>
+     <RequestId>A2D6D5FB-FA07-41A8-B093-A2B7B26E72F2</RequestId>
+     <AvailablePackNum>8</AvailablePackNum>
+</DescribeResourcePackStatisticsResponse>
+```
 
--   `JSON`格式
+`JSON` 格式
 
-    ``` {#codeblock_ftr_37u_bst}
-    {
-     "TotalInitCapacity": 427000000000000,
-     "TotalUsedCapacity": 5285439000000,
-     "TotalCurrCapacity": 20831250000000,
-     "RequestId": "A2D6D5FB-FA07-41A8-B093-A2B7B26E72F2",
-     "AvailablePackNum": 8
-    }
-    ```
+``` {#json_return_success_demo}
+{
+	"TotalInitCapacity":427000000000000,
+	"TotalUsedCapacity":5285439000000,
+	"RequestId":"A2D6D5FB-FA07-41A8-B093-A2B7B26E72F2",
+	"TotalCurrCapacity":20831250000000,
+	"AvailablePackNum":8
+}
+```
 
+## 错误码 { .section}
+
+访问[错误中心](https://error-center.aliyun.com/status/product/ddosbgp)查看更多错误码。
 
