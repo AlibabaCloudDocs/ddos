@@ -22,5 +22,5 @@
 
 **说明：** 针对个别黑洞过于频繁的用户，阿里云保留延长黑洞时长和降低黑洞阈值的权利，具体黑洞阈值和黑洞时长以控制台显示为准。
 
-如果您想获得更高的增量DDoS防护能力，购买[DDoS高防IP服务](https://www.alibabacloud.com/zh/product/ddos-pro)，获得最高300G（按天）独享、优质的DDoS防护能力。
+如果您想获得更高的增量DDoS防护能力，购买[DDoS高防IP服务](https://www.alibabacloud.com/zh/product/ddos-pro)，获得每天最高300G的独享DDos防护服务。
 
