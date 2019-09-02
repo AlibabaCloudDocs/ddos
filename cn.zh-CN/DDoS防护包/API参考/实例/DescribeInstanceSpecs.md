@@ -65,9 +65,6 @@
 |RequestId|String|CEB7F4F5-1DA8-41ED-A9C4-E0F0033E9E1F|本次请求的ID。
 
  |
-|RequestId|String|CEB7F4F5-1DA8-41ED-A9C4-E0F0033E9E1F|本次请求的ID。
-
- |
 
 ## 示例 {#demo .section}
 
