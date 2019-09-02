@@ -1,51 +1,73 @@
-# ModifyRemark {#reference_265095 .reference}
+# ModifyRemark {#doc_api_ddosbgp_ModifyRemark .reference}
 
 调用ModifyRemark接口修改DDoS防护包的备注。
 
 **说明：** DDoS防护包的API接口目前仅对企业版DDoS防护包用户开放。
 
-## 请求参数 {#section_0jj_pcr_rj0 .section}
+## 调试 {#api_explorer .section}
 
-|名称|类型|是否必选|描述|
-|--|--|----|--|
-|Action|String|是|要执行的操作，取值：ModifyRemark。|
-|InstanceId|String|是|要操作的防护包实例ID。|
-|Remark|String|是|要添加的备注内容。|
+[您可以在OpenAPI Explorer中直接运行该接口，免去您计算签名的困扰。运行成功后，OpenAPI Explorer可以自动生成SDK代码示例。](https://api.aliyun.com/#product=ddosbgp&api=ModifyRemark&type=RPC&version=2018-07-20)
 
-## 返回参数 {#section_1as_cc1_hc5 .section}
+## 请求参数 {#parameters .section}
 
-|名称|类型|描述|
-|--|--|--|
-|RequestId|String|本次请求的ID。|
+|名称|类型|是否必选|示例值|描述|
+|--|--|----|---|--|
+|Action|String|是|ModifyRemark|要执行的操作，取值：**ModifyRemark**。
 
-## 示例 {#section_b48_y6o_uop .section}
+ |
+|InstanceId|String|是|ddosbgp-cn-xxx|要操作的防护包实例ID。
+
+ |
+|Remark|String|是|test|要添加的备注内容。
+
+ |
+|ResourceGroupId|String|否|test|资源组ID。
+
+ |
+|ResourceRegionId|String|否|cn-hangzhou|资源组地区ID。
+
+ |
+
+## 返回数据 {#resultMapping .section}
+
+|名称|类型|示例值|描述|
+|--|--|---|--|
+|RequestId|String|4C467B38-3910-447D-87BC-AC049166F216|本次请求的ID。
+
+ |
+
+## 示例 {#demo .section}
 
 请求示例
 
-``` {#codeblock_60x_v7t_oqo}
-https://ddosbgp.aliyuncs.com/?Action=ModifyRemark
+``` {#request_demo}
+
+http(s)://[Endpoint]/?Action=ModifyRemark
 &InstanceId=ddosbgp-cn-xxx
 &Remark=test
-&公共请求参数
+&<公共请求参数>
+
 ```
 
 正常返回示例
 
--   `XML`格式
+`XML` 格式
 
-    ``` {#codeblock_yok_0bb_bul}
-    <?xml version='1.0' encoding='UTF-8'?>
-    <ModifyRemarkResponse>
-        <RequestId>C33EB3D5-AF96-43CA-9C7E-37A81BC06A1E</RequestId>
-    </ModifyRemarkResponse>
-    ```
+``` {#xml_return_success_demo}
+<ModifyRemarkResponse>
+      <RequestId>4C467B38-3910-447D-87BC-AC049166F216</RequestId>
+</ModifyRemarkResponse>
+```
 
--   `JSON`格式
+`JSON` 格式
 
-    ``` {#codeblock_ftr_37u_bst}
-    {
-        "RequestId":"4C467B38-3910-447D-87BC-AC049166F216"
-    }
-    ```
+``` {#json_return_success_demo}
+{
+	"RequestId":"4C467B38-3910-447D-87BC-AC049166F216"
+}
+```
 
+## 错误码 { .section}
+
+访问[错误中心](https://error-center.aliyun.com/status/product/ddosbgp)查看更多错误码。
 
