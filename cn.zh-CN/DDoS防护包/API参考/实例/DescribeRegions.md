@@ -20,7 +20,7 @@
 
 |名称|类型|示例值|描述|
 |--|--|---|--|
-|Code|Boolean|true|响应状态码。
+|Code|String|true|响应状态码。
 
  |
 |Regions| | |防护包支持的地域信息。
