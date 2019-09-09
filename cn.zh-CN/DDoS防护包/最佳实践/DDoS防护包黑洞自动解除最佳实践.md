@@ -11,12 +11,16 @@ DDoS防护包提供黑洞解除功能，而手动[解除黑洞](cn.zh-CN/DDoS防
 
 **说明：** 只有已添加为DDoS防护包实例的防护对象IP触发黑洞策略时，才会触发云监控的黑洞事件报警的消息推送。对于不在DDoS防护包实例的防护对象列表中的IP触发的黑洞事件将不会被推送。
 
+由于黑洞解除涉及阿里云后台系统的风控管理策略，解除黑洞操作可能失败（解除失败时不会扣减您的剩余黑洞解除次数）。如果出现未能成功解除的情况，请您耐心等待一段时间后再次尝试。
+
+强烈建议您在执行黑洞解除操作前查看平台自动解封时间，如果您可以接受该自动解封时间，请您耐心等待。
+
 通过类似的方法，您还可以实现当DDoS攻击事件发生时自动调用云解析的API接口将相关域名的DNS解析切换至DDoS高防实例等。
 
 1.  登录[云监控控制台](https://cloudmonitor.console.aliyun.com/)，定位到**事件监控** \> **报警规则**页面。
 2.  单击**创建事件报警**，为DDoS防护包创建黑洞事件报警。 
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/1095423/156411767853155_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/1095423/156799469753155_zh-CN.png)
 
 3.  在所创建的事件报警中，根据您想要使用的消息消费机制，选择事件报警消息的推送渠道，单击**确定**。 云监控支持多种渠道供您实现事件消息的消费：
 
@@ -24,7 +28,7 @@ DDoS防护包提供黑洞解除功能，而手动[解除黑洞](cn.zh-CN/DDoS防
     -   函数计算
     -   URL回调
     -   日志服务
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/1095423/156411767853156_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/1095423/156799469853156_zh-CN.png)
 
     事件报警创建完成后，当DDoS防护包实例中已防护的IP被黑洞时，云监控将自动报警并将以下消息实时推送至您所选择的消费渠道。
 
