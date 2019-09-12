@@ -29,7 +29,7 @@ After you purchase an Anti-DDoS Premium instance, you can purchase additional gl
 1.  Log on to the [Anti-DDoS Premium console](https://yundunnext.console.aliyun.com/?p=ddosdip#/anycast/asset).
 2.  On the **Instance List** page, click **Purchase**.
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/119523/156827120438215_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/119523/156827295438215_en-US.png)
 
 3.  On the Global Advanced Mitigation purchase page, select the quantity, and click **Buy Now**.
 
