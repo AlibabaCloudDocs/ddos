@@ -1,48 +1,48 @@
-# DDoS高防（新BGP）
+# Anti-DDoS Pro
 
-DDoS高防（新BGP）服务采用中国内地独有的T级八线BGP带宽资源，为用户业务服务器部署在中国内地的场景，提供超大流量DDoS攻击的防御服务。相比静态IDC高防IP服务，DDoS高防（新BGP）天然具有灾备能力、线路更稳定、访问速度更快。
+Anti-DDoS Pro provides eight Border Gateway Protocol \(BGP\) lines at the Tbit/s level to protect your servers deployed in mainland China against DDoS attacks. Compared with anti-DDoS service based on Internet Data Centers \(IDCs\), Anti-DDoS Pro supports more stable networks with lower latency and quicker disaster recovery.
 
-## 适用对象
+## Target users
 
-要接入DDoS高防进行防护的业务服务器部署在**中国内地**地域。
+Anti-DDoS Pro is suitable for workloads deployed in **mainland China**.
 
-## 产品优势
+## Benefits
 
-DDoS高防（新BGP）服务具有以下优势：
+Anti-DDoS Pro provides the following benefits:
 
--   拥有中国内地最大的BGP带宽资源，最高防护带宽达到1.5 Tbps，可以应对超大流量攻击。
--   拥有中国内地最优质的BGP带宽资源，BGP线路覆盖电信、联通、移动、教育等各大运营商线路，平均访问时延仅20 ms左右。
--   支持海量DDoS清洗，中国内地清洗机房超过8个，总防御带宽大于10 Tbps，单机房带宽大于1 Tbps。
--   只需要一个IP，即可满足中国内地不同运营商线路的快速访问和DDoS防护需求。
--   为电信、联通、移动、教育等超过20家运营商线路提供独家防御。
+-   Highest BGP bandwidth in mainland China: Anti-DDoS Pro provides a maximum bandwidth of 1.5 Tbit/s to protect your services against DDoS attacks.
+-   Top-quality bandwidth resources in mainland China: Anti-DDoS Pro provides BGP lines that cover most Internet service provider \(ISP\) networks in mainland China, such as China Telecom, China Unicom, China Mobile, and China Education and Research Network. The average latency is approximately 20 milliseconds.
+-   Distributed on-premises data centers to clean DDoS attacks: Anti-DDoS Pro provides more than eight on-premises data centers to scrub DDoS attacks. The total bandwidth exceeds 10 Tbit/s and the bandwidth of each on-premises data center exceeds 1 Tbit/s.
+-   Only one IP address is required to access different ISP networks in mainland China and to meet the requirements of anti-DDoS protection.
+-   Anti-DDoS Pro provides exclusive protection for more than 20 ISPs, such as China Telecom, China Unicom, China Mobile, and China Education and Research Network.
 
-## 应用场景
+## Scenarios
 
-如果您有以下DDoS防护需求，建议您选购DDoS高防（新BGP）服务：
+We recommend that you activate Anti-DDoS Pro if you have the following requirements:
 
--   对线路质量有较高要求，包括访问时延、灾备能力、覆盖运营商线路范围等要求。
--   需要20 Gbps以上保底防护带宽的BGP线路高防IP服务。
--   具有300 Gbps以上大流量DDoS攻击的防护需求。
+-   Reliable networks that have a minimal latency, provide quick disaster recovery, and cover multiple ISP networks.
+-   BGP lines that provide at least 20 Gbit/s bandwidth against basic DDoS attacks.
+-   BGP lines that provide at least 300 Gbit/s bandwidth against DDoS attacks.
 
-## 新BGP高防VS静态IDC高防IP
+## Comparison between Anti-DDoS Pro and IDC-based anti-DDoS service
 
-|对比项目|静态IDC高防IP （电信、联通、移动线路）
+|Item|IDC-based anti-DDoS service that uses China Telecom, China Unicom, and China Mobile networks
 
-|静态IDC高防IP （BGP线路）
+|IDC-based anti-DDoS service that uses BGP lines
 
-|新BGP高防|
-|----|------------------------|-------------------|------|
-|运营商覆盖|仅覆盖电信、联通和移动线路。|除了覆盖电信、联通和移动线路外，还能覆盖众多中小运营商线路。|除了覆盖电信、联通和移动线路外，还能覆盖众多中小运营商线路。|
-|线路质量|中国内地平均访问时延在30 ms左右，且对于小运营商可能存在跨网访问。|中国内地平均访问时延在20 ms左右，且不存在运营商跨网访问。|中国内地平均访问时延在20 ms左右，且不存在运营商跨网访问。|
-|专线回源|不支持。通过互联网回源，存在回源时延。|对于阿里云上的业务，提供专线回源，回源延时可忽略；对于非阿里云内业务，仍通过互联网回源。|对于阿里云上的业务，提供专线回源，回源延时可忽略；对于非阿里云内业务，仍通过互联网回源。|
-|灾备能力|机房故障时，四层流量无法进行自动调度；七层流量自动调度受限于DNS解析生效时间，无法立即生效。|通过BGP路由实现全部流量自动调度，故障响应切换时间可达秒级左右。|通过BGP路由实现全部流量自动调度，故障响应切换时间可达秒级左右。|
-|IP数量|包含2个以上IP，配置工作量相对繁琐。|仅1个IP，配置工作量较少。|仅1个IP，配置工作量较少。|
-|最高防护能力|提供最高1 Tbps的防护能力（仅支持电信和联通线路）。|提供最高100 Gbps的防护能力。|提供最高1.5 Tbps的防护能力。|
-|四层防护能力|支持防御SYN Flood、ACK Flood、ICMP Flood、畸形包等流量攻击，以及空连接、真实傀儡机连接等攻击。|与静态IDC高防IP服务的防护能力一致。|与静态IDC高防IP服务的防护能力一致。|
-|七层防护能力|支持防御CC攻击。|支持防御CC攻击。|支持防御CC攻击。|
+|Anti-DDoS Pro|
+|----|----------------------------------------------------------------------------------------------|-------------------------------------------------|-------------|
+|ISP networks|Only supports China Telecom, China Unicom, and China Mobile networks.|Supports multiple small and medium-sized ISP networks in addition to China Telecom, China Unicom, and China Mobile networks.|Supports multiple small and medium-sized ISP networks in addition to China Telecom, China Unicom, and China Mobile networks.|
+|Network quality|The average latency is approximately 30 milliseconds in mainland China. Cross-ISP connections may be required if you use networks provided by small-sized ISPs.|The average latency is approximately 20 milliseconds in mainland China. Cross-ISP connections are not required.|The average latency is approximately 20 milliseconds in mainland China. Cross-ISP connections are not required.|
+|Leased back-to-origin lines|Not supported. Traffic is forwarded back to the origin server with a latency over the Internet.|If the origin server is deployed on Alibaba Cloud, traffic is forwarded back to the origin server with a negligible latency through leased lines. Otherwise, traffic is forwarded back to the origin server through the Internet.|If the origin server is deployed on Alibaba Cloud, traffic is forwarded back to the origin server with a negligible latency through leased lines. Otherwise, traffic is forwarded back to the origin server through the Internet.|
+|Disaster recovery|If a server exception occurs, transport-layer traffic cannot be automatically scheduled. Due to DNS resolution limits, automatic scheduling for application-layer traffic cannot take effect immediately.|Supports automatic scheduling for all traffic based on BGP routing. The switchover is completed within seconds.|Supports automatic scheduling for all traffic based on BGP routing. The switchover is completed within seconds.|
+|Required number of IP addresses|Requires more than two IP addresses, which requires complex configurations.|Requires only one IP address.|Requires only one IP address.|
+|Maximum protection capability|Based on China Telecom or China Unicom networks, provides a maximum bandwidth of 1 Tbit/s against DDoS attacks.|Provides a maximum bandwidth of 100 Gbit/s against DDoS attacks.|Provides a maximum bandwidth of 1.5 Tbit/s against DDoS attacks.|
+|Protection for the transport layer|Provides protection against flood attacks such as SYN flood attacks, ACK flood attacks, and ICMP flood attacks, malformed packets, empty requests, and zombi requests.|The same.|The same.|
+|Protection for the application layer|Supports protection against HTTP flood attacks.|The same.|The same.|
 
-## 相关文档
+## Related topics
 
--   [DDoS高防（新BGP）计费方式](/intl.zh-CN/产品定价/DDoS高防（新BGP）计费方式.md)
--   [创建DDoS高防（新BGP）实例](/intl.zh-CN/DDoS高防（新BGP&国际）用户指南/开通DDoS高防（新BGP&国际）.md)
+-   [Anti-DDoS Pro billing methods](/intl.en-US/Pricing/Anti-DDoS Pro billing methods.md)
+-   [Purchase an Anti-DDoS Pro instance](/intl.en-US/Anti-DDoS Pro & Premium User Guide/Purchase mitigation plans for Anti-DDoS Pro and Anti-DDoS Premium.md)
 
