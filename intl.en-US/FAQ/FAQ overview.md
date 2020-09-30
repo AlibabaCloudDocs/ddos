@@ -23,14 +23,24 @@ This topic lists commonly asked questions about Alibaba Cloud Anti-DDoS, which p
 -   [Can I increase the protection bandwidth anytime when the basic protection bandwidth of 30 Gbit/s provided by the Anti-DDoS Pro instance cannot meet the requirements?](/intl.en-US/FAQ/FAQ for the billing of burstable protection.md)
 -   [How is the mitigation fee calculated if a domain name has been attacked multiple times in a day?](/intl.en-US/FAQ/FAQ for the billing of burstable protection.mdsection_f54_1kp_jy3)
 -   [How do I prevent an Anti-DDoS Pro instance from providing burstable protection?](/intl.en-US/FAQ/FAQ for the billing of burstable protection.md) |
-|[Anti-DDoS Origin FAQ](/intl.en-US/FAQ/Anti-DDoS Origin FAQ.md)|-   [Can Anti-DDoS Origin Basic provide protection against SYN flood attacks?](/intl.en-US/FAQ/Anti-DDoS Origin FAQ.md)
--   [Why does Anti-DDoS Origin Basic not protect my Elastic Compute Service \(ECS\) instance against an attack of 20 Mbit/s?](/intl.en-US/FAQ/Anti-DDoS Origin FAQ.md)
--   [Why cannot I manually deactivate the black hole for an Anti-DDoS Origin Basic instance?](/intl.en-US/FAQ/Anti-DDoS Origin FAQ.mdsection_zrm_w6y_hu9)
--   [Why the data usage in the Anti-DDoS Origin console differs from that in Cloud Monitor and other cloud services?](/intl.en-US/FAQ/Anti-DDoS Origin FAQ.mdsection_vyh_xyv_alf)
--   [What is the difference between the billing method for unlimited protection of Anti-DDoS Origin Enterprise and the billing method for burstable protection of Anti-DDoS Pro?](/intl.en-US/FAQ/Anti-DDoS Origin FAQ.md)
--   [What can I do if the black hole is activated for an IP address that is protected by Anti-DDoS Enterprise?](/intl.en-US/FAQ/Anti-DDoS Origin FAQ.mdsection_4ul_k1i_wku)
--   [What can I do if I deployed an Anti-DDoS Origin Enterprise instance in the wrong region?](/intl.en-US/FAQ/Anti-DDoS Origin FAQ.md)
--   [What can I do if the error message "the IP address does not belong to your account" is displayed when I add an IP address to Anti-DDoS Origin?](/intl.en-US/FAQ/Anti-DDoS Origin FAQ.mdsection_cn4_rwu_ya6) |
+|[FAQ about Anti-DDoS Origin](/intl.en-US/FAQ/FAQ about Anti-DDoS Origin.md)|**Basic**
+
+-   [Can Anti-DDoS Origin Basic provide protection against SYN flood attacks?](/intl.en-US/FAQ/FAQ about Anti-DDoS Origin.md)
+-   [Why does Anti-DDoS Origin Basic not protect my Elastic Compute Service \(ECS\) instance against an attack of 20 Mbit/s?](/intl.en-US/FAQ/FAQ about Anti-DDoS Origin.md)
+-   [Why cannot I manually deactivate blackhole filtering for an Anti-DDoS Origin Basic instance?](/intl.en-US/FAQ/FAQ about Anti-DDoS Origin.mdsection_zrm_w6y_hu9)
+-   [Why the traffic data in the Anti-DDoS Origin console differs from that in Cloud Monitor and other cloud services?](/intl.en-US/FAQ/FAQ about Anti-DDoS Origin.mdsection_vyh_xyv_alf)
+-   [What is the billing difference between unlimited protection of Anti-DDoS Origin Enterprise and burstable protection of Anti-DDoS Pro?](/intl.en-US/FAQ/FAQ about Anti-DDoS Origin.md)
+-   [What do I do if blackhole filtering is activated for an IP address that is protected by Anti-DDoS Origin Enterprise?](/intl.en-US/FAQ/FAQ about Anti-DDoS Origin.mdsection_4ul_k1i_wku)
+-   [What do I do if I deployed an Anti-DDoS Origin Enterprise instance in the wrong region?](/intl.en-US/FAQ/FAQ about Anti-DDoS Origin.md)
+-   [What do I do if the error message "The IP address does not belong to your account" is displayed when I add an IP address to Anti-DDoS Origin?](/intl.en-US/FAQ/FAQ about Anti-DDoS Origin.mdsection_cn4_rwu_ya6)
+
+**Enterprise**
+
+-   [What is the billing difference between unlimited protection of Anti-DDoS Origin Enterprise and burstable protection of Anti-DDoS Pro?](/intl.en-US/FAQ/FAQ about Anti-DDoS Origin.md)
+-   [What do I do if blackhole filtering is activated for an IP address that is protected by Anti-DDoS Origin Enterprise?](/intl.en-US/FAQ/FAQ about Anti-DDoS Origin.mdsection_4ul_k1i_wku)
+-   [What do I do if I deployed an Anti-DDoS Origin Enterprise instance in the wrong region?](/intl.en-US/FAQ/FAQ about Anti-DDoS Origin.md)
+-   [When I add the IP address of a service, the system prompts that the number of IP addresses reaches the upper limit. What do I do?](/intl.en-US/FAQ/FAQ about Anti-DDoS Origin.md)
+-   [What do I do if the error message "The IP address does not belong to your account" is displayed when I add an IP address to Anti-DDoS Origin?](/intl.en-US/FAQ/FAQ about Anti-DDoS Origin.mdsection_cn4_rwu_ya6) |
 |[Anti-DDoS Pro and Anti-DDoS Premium FAQ](/intl.en-US/FAQ/Anti-DDoS Pro and Anti-DDoS Premium FAQ.md)|-   [What happens if an Anti-DDoS Pro or Anti-DDoS Premium instance expires?](/intl.en-US/FAQ/Anti-DDoS Pro and Anti-DDoS Premium FAQ.mdsection_urg_0kt_c2b)
 -   [What is the clean bandwidth of an Anti-DDoS Pro or Anti-DDoS Premium instance?](/intl.en-US/FAQ/Anti-DDoS Pro and Anti-DDoS Premium FAQ.mdsection_i7x_ce0_9a8)
 -   [What happens if the actual bandwidth exceeds the clean bandwidth of an Anti-DDoS Pro or Anti-DDoS Premium instance?](/intl.en-US/FAQ/Anti-DDoS Pro and Anti-DDoS Premium FAQ.mdsection_j32_xy6_kkn)
@@ -54,7 +64,7 @@ This topic lists commonly asked questions about Alibaba Cloud Anti-DDoS, which p
 -   [What are the limits on the numbers of ports and domain names protected by an Anti-DDoS Pro or Anti-DDoS Premium instance?](/intl.en-US/FAQ/Anti-DDoS Pro and Anti-DDoS Premium FAQ.mdsection_jar_w1u_k7f)
 -   [Why does the traffic chart show a traffic scrubbing event even though the size of the traffic received by the server does not exceed the traffic scrubbing threshold?](/intl.en-US/FAQ/Anti-DDoS Pro and Anti-DDoS Premium FAQ.mdsection_joj_hbi_7p8)
 -   [Do Anti-DDoS Pro and Anti-DDoS Premium protect websites that use NTLM authentication?](/intl.en-US/FAQ/Anti-DDoS Pro and Anti-DDoS Premium FAQ.mdsection_wgn_qt3_mgb) |
-|Hot issues with Anti-DDoS Pro and Anti-DDoS Premium|**Configuration**
+|Hot FAQ about Anti-DDoS Pro and Anti-DDoS Premium|**Configuration**
 
 -   [How do I enable WebSocket?]()
 -   [How do I configure Anti-DDoS Pro or Anti-DDoS Premium by using different Alibaba Cloud accounts?]()
