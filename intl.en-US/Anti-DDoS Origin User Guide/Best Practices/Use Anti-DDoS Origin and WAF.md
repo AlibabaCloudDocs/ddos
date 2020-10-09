@@ -34,10 +34,6 @@ If you use Anti-DDoS Origin Enterprise and WAF to protect your website, you must
 
     4.  Click **Add Domain Name**.
 
-        You can add your website in two modes: CNAME and transparent proxy. In CNAME mode, the website can be automatically or manually added. In transparent proxy mode, only origin servers that are deployed in the China \(Beijing\) region are supported.
-
-        This topic describes how to add a website in CNAME mode. For more information about the mode for adding a website , see [Add domain names](/intl.en-US/Website Access/Website access with CNAME/Add domain names.md) and [Website access]().
-
     5.  On the **Add Domain Name** page, click **Manually Add Other Websites**. If the **Add Domain Name** page does not appear, skip this step.
 
     6.  Complete the configurations in the **Enter your website information** step of the **Add Domain Name** wizard and click **Next**.
