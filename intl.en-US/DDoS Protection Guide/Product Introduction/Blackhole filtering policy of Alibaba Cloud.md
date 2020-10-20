@@ -62,8 +62,8 @@ For more information about how to view the threshold, see [View blackhole trigge
 
 You can also increase the threshold by using one of the following methods:
 
--   Purchasean [Anti-DDoS Origin](https://common-buy-intl.alibabacloud.com/?commodityCode=ddos_ddosbgp_public_intl) instance to enable [unlimited protection](/intl.en-US/DDoS Protection Guide/Terms.md) without changing your service IP address.
--   Purchasean [Anti-DDoS Pro or Anti-DDoS Premium](https://common-buy-intl.alibabacloud.com/?commodityCode=ddosDip_intl) instance and switch your service traffic to the IP address of Anti-DDoS Pro or Anti-DDoS Premium. This allows you to obtain up to Tbit/s of protection capabilities. Anti-DDoS Pro and Anti-DDoS Premium defend your service against DDoS attacks with a committed protection capability and defense effect.
+-   Purchase an [Anti-DDoS Origin](https://common-buy-intl.alibabacloud.com/?commodityCode=ddos_ddosbgp_public_intl) instance to enable [unlimited protection](/intl.en-US/DDoS Protection Guide/Terms.md) without changing your service IP address.
+-   Purchase an [Anti-DDoS Pro or Anti-DDoS Premium](https://common-buy-intl.alibabacloud.com/?commodityCode=ddosDip_intl) instance and switch your service traffic to the IP address of Anti-DDoS Pro or Anti-DDoS Premium. This allows you to obtain up to Tbit/s of protection capabilities. Anti-DDoS Pro and Anti-DDoS Premium defend your service against DDoS attacks with a committed protection capability and defense effect.
 
 ## What is the difference between Security Credibility and Anti-DDoS Pro or Anti-DDoS Premium in terms of protection threshold increase?
 
