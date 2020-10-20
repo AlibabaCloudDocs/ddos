@@ -1,5 +1,5 @@
 ---
-keyword: [Anti-DDoS Origin, Enterprise edition, WAF, DDoS attacks, web attacks, HTTP flood attacks]
+keyword: [Anti-DDoS Origin, Enterprise edition, WAF, DDoS attacks, web attacks, HTTP flood attacks, xx]
 ---
 
 # Use Anti-DDoS Origin and WAF
@@ -8,7 +8,7 @@ This topic describes how to use Anti-DDoS Origin and Web Application Firewall \(
 
 -   An Elastic Compute Service \(ECS\) instance is created and has web applications installed. The ECS instance has a public IP address, and your website has a domain name.
 
-    **Note:** If your website provides services in mainland China, the domain name of your website must have an Internet Content Provider \(ICP\) license. Otherwise, you cannot add the domain name to WAF instances in mainland China to protect your website. For more information, see [ICP filing application overview]().
+    **Note:** If your website provides services in mainland China, the domain name of your website must have an Internet Content Provider \(ICP\) license. Otherwise, you cannot add the domain name to WAF instances in mainland China to protect your website.
 
 -   An Anti-DDoS Origin Enterprise instance is purchased. For more information, see [Purchase an Anti-DDoS Origin Enterprise instance](/intl.en-US/Anti-DDoS Origin User Guide/Purchase an Anti-DDoS Origin Enterprise instance.md).
 
@@ -33,6 +33,10 @@ If you use Anti-DDoS Origin Enterprise and WAF to protect your website, you must
     3.  In the left-side navigation pane, choose **Asset Center** \> **Website Access**.
 
     4.  Click **Add Domain Name**.
+
+        You can add your website in two modes: CNAME and transparent proxy. In CNAME mode, the website can be automatically or manually added. In transparent proxy mode, only origin servers that are deployed in the China \(Beijing\) region are supported.**xx****xx**
+
+        This topic describes how to add a website in CNAME mode.
 
     5.  On the **Add Domain Name** page, click **Manually Add Other Websites**. If the **Add Domain Name** page does not appear, skip this step.
 
