@@ -18,11 +18,7 @@ Before you manually deactivate blackhole filtering, check the time of automatic 
 
     **Note:** You can **deactivate blackhole filtering** only when blackhole filtering is triggered for **IP addresses** protected by the instance. If blackhole filtering is not triggered, the **Deactivate Black Hole** operation is not available in the console.
 
-    ![Deactivate Black Hole (Manage Instances page)](../images/p110881.png)
-
 5.  On the **Protection Target** tab, find a protected IP address that is in the **Blackholing** state and click **Deactivate Black Hole** in the Actions column.
-
-    ![Deactivate Black Hole (Protection Target tab)](../images/p110882.png)
 
 6.  In the **Deactivate Black Hole** dialog box, view the remaining times that you can deactivate blackhole filtering and click **OK**.
 
