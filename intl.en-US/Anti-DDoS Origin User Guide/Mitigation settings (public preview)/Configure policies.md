@@ -144,7 +144,7 @@ For more information, see [Configure the ICMP Blocking policy](#step_ix7_v36_1jd
 
     3.  In the **Add Byte-Match Filter Rule** dialog box, configure the following parameters.
 
-        ![Add Byte-Match Filter Rule](https://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/en-US/9187034061/p169433.png)
+        ![Add Byte-Match Filter Rule](https://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/en-US/0397034061/p169433.png)
 
         |Parameter|Description|
         |---------|-----------|
