@@ -91,7 +91,7 @@ For more information, see [Configure the ICMP Blocking policy](#step_ix7_v36_1jd
 
         ![Source Port Blocking ](https://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/en-US/9187034061/p169427.png)
 
-    2.  In the **Configure Source Port Blocking** pane, click **Add**.
+    2.  In the **Configure Source Port Blocking** panel, click **Add**.
 
         **Note:** You can add a maximum of eight port blocking rules.
 
@@ -108,7 +108,7 @@ For more information, see [Configure the ICMP Blocking policy](#step_ix7_v36_1jd
 
     4.  Click **OK**.
 
-        After you add a port blocking rule, it automatically takes effect. Requests from the specified protocol and ports are denied. You can manage configured port blocking rules in the **Configure Source Port Blocking** pane. For example, you can click **Edit** or **Delete** to edit or delete a port blocking rule.
+        After you add a port blocking rule, it automatically takes effect. Requests from the specified protocol and ports are denied. You can manage configured port blocking rules in the **Configure Source Port Blocking** panel. For example, you can click **Edit** or **Delete** to edit or delete a port blocking rule.
 
 8.  Configure the Blacklist and Whitelist policy.
 
@@ -118,7 +118,7 @@ For more information, see [Configure the ICMP Blocking policy](#step_ix7_v36_1jd
 
         ![Blacklist and Whitelist ](https://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/en-US/9187034061/p169428.png)
 
-    2.  In the **Blacklist and Whitelist** pane, click **Add IP Addresses**.
+    2.  In the **Blacklist and Whitelist** panel, click **Add IP Addresses**.
 
     3.  In the **Add IP Addresses** dialog box, configure the blacklist and whitelist.
 
@@ -128,7 +128,7 @@ For more information, see [Configure the ICMP Blocking policy](#step_ix7_v36_1jd
 
     4.  Click **OK**.
 
-        After you configure the Blacklist and Whitelist policy, it immediately takes effect. Requests from the IP addresses included in the blacklist are denied, and requests from the IP addresses included in the whitelist are allowed. You can manage the configured blacklist and whitelist in the **Blacklist and Whitelist** pane. For example, you can click **Delete** to delete an IP address or click **Clear** to clear the blacklist or whitelist.
+        After you configure the Blacklist and Whitelist policy, it immediately takes effect. Requests from the IP addresses included in the blacklist are denied, and requests from the IP addresses included in the whitelist are allowed. You can manage the configured blacklist and whitelist in the **Blacklist and Whitelist** panel. For example, you can click **Delete** to delete an IP address or click **Clear** to clear the blacklist or whitelist.
 
 9.  Configure the Byte-Match Filter policy.
 
@@ -138,7 +138,7 @@ For more information, see [Configure the ICMP Blocking policy](#step_ix7_v36_1jd
 
         ![Byte-Match Filter](https://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/en-US/9187034061/p169432.png)
 
-    2.  In the **Configure Byte-Match Filter** pane, click **Add**.
+    2.  In the **Configure Byte-Match Filter** panel, click **Add**.
 
         **Note:** You can add a maximum of eight Byte-Match Filter rules.
 
@@ -158,7 +158,7 @@ For more information, see [Configure the ICMP Blocking policy](#step_ix7_v36_1jd
 
     4.  Click **OK**.
 
-        After you configure the Byte-Match Filter policy, it automatically takes effect. Requests that meet the rules are denied, allowed, or limited based on the policy. You can manage the Byte-Match Filter rules in the **Configure Byte-Match Filter** pane. For example, you can click **Edit**, **Delete**, Move Down, or Move Up to manage the rules.
+        After you configure the Byte-Match Filter policy, it automatically takes effect. Requests that meet the rules are denied, allowed, or limited based on the policy. You can manage the Byte-Match Filter rules in the **Configure Byte-Match Filter** panel. For example, you can click **Edit**, **Delete**, Move Down, or Move Up to manage the rules.
 
         **Note:** You can adjust the order of rules for better management. The adjustment does not affect the rules.
 
