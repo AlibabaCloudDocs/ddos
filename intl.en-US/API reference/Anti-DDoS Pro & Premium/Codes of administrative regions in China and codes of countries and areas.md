@@ -1,307 +1,309 @@
 # Codes of administrative regions in China and codes of countries and areas
 
-This topic describes the codes of administrative regions in China and codes of countries and areas that are used when you call specific operations. The operations are related to the Blocked Regions policy for infrastructure and the request distribution query.
+This topic describes the codes of administrative regions in China and codes of countries and areas that are used when you call specific operations.
 
 ## Related operations
 
 The following table describes the operations for which the codes of administrative regions in China and codes of countries and areas are required.
 
-|Category|Operation|Scenario|
-|--------|---------|--------|
-|Protection for Infrastructure - Blocked Regions|[ConfigNetworkRegionBlock](/intl.en-US/API reference/Anti-DDoS Pro & Premium/Protection for infrastructure/ConfigNetworkRegionBlock.md)|You want to query the countries or areas that are specified by the Countries field and administrative regions in China that are specified by the Provinces field in the Config request parameter.|
-|[DescribeNetworkRegionBlock](/intl.en-US/API reference/Anti-DDoS Pro & Premium/Protection for infrastructure/DescribeNetworkRegionBlock.md)|You want to query the countries or areas that are specified by the Countries field and administrative regions in China that are specified by the Provinces field in the Config response parameter.|
-|Monitoring reports|[DescribeDomainViewSourceCountries](/intl.en-US/API reference/Anti-DDoS Pro & Premium/Investigation/DescribeDomainViewSourceCountries.md)|You want to query the country or area that is specified by the CountryId response parameter.|
-|[DescribeDomainViewSourceProvinces](/intl.en-US/API reference/Anti-DDoS Pro & Premium/Investigation/DescribeDomainViewSourceProvinces.md)|You want to query the administrative region in China that is specified by the ProvinceId response parameter.|
-|[DescribePortViewSourceCountries](/intl.en-US/API reference/Anti-DDoS Pro & Premium/Investigation/DescribePortViewSourceCountries.md)|You want to query the country or area that is specified by the CountryId response parameter.|
-|[DescribePortViewSourceProvinces](/intl.en-US/API reference/Anti-DDoS Pro & Premium/Investigation/DescribePortViewSourceProvinces.md)|You want to query the administrative region in China that is specified by the ProvinceId response parameter.|
+|Feature|Operation|Scenario|
+|-------|---------|--------|
+|Blocked Regions|[ConfigNetworkRegionBlock](/intl.en-US/API reference/Anti-DDoS Pro & Premium/Protection for infrastructure/ConfigNetworkRegionBlock.md)|Query the countries or areas that are specified by the Countries field and administrative regions in China that are specified by the Provinces field in the Config request parameter.|
+|[DescribeNetworkRegionBlock](/intl.en-US/API reference/Anti-DDoS Pro & Premium/Protection for infrastructure/DescribeNetworkRegionBlock.md)|Query the countries or areas that are specified by the Countries field and administrative regions in China that are specified by the Provinces field in the Config response parameter.|
+|Monitoring reports|[DescribeDomainViewSourceCountries](/intl.en-US/API reference/Anti-DDoS Pro & Premium/Monitoring reports/DescribeDomainViewSourceCountries.md)|Query the country or area that is specified by the CountryId response parameter.|
+|[DescribeDomainViewSourceProvinces](/intl.en-US/API reference/Anti-DDoS Pro & Premium/Monitoring reports/DescribeDomainViewSourceProvinces.md)|Query the administrative region in China that is specified by the ProvinceId response parameter.|
+|[DescribePortViewSourceCountries](/intl.en-US/API reference/Anti-DDoS Pro & Premium/Monitoring reports/DescribePortViewSourceCountries.md)|Query the country or area that is specified by the CountryId response parameter.|
+|[DescribePortViewSourceProvinces](/intl.en-US/API reference/Anti-DDoS Pro & Premium/Monitoring reports/DescribePortViewSourceProvinces.md)|Query the administrative region in China that is specified by the ProvinceId response parameter.|
+|Attack Analysis|[DescribeDDosEventArea]()|Query the administrative region in China, country, or area that is specified by the Area response parameter.|
+|[DescribeDDosEventSrcIp]()|Query the administrative region in China, country, or area that is specified by theAreaId response parameter.|
 
 ## Codes of administrative regions in China
 
-1 specifies the codes that are suitable for the operations related to the Blocked Regions policy for infrastructure.
+|Country or area|Code\(Suitable for the operations related to Blocked Regions\)
 
-2 specifies the codes that are suitable for the operations related to monitoring reports.
+|ProvinceId\(Suitable for the operations related to monitoring reports\)
 
-|Region|Code1|Province ID2|
-|------|-----|------------|
-|Beijing|11|110000|
-|Tianjin|12|120000|
-|Hebei|13|130000|
-|Shanxi|14|140000|
-|Nei Mongol|15|150000|
-|Liaoning|21|210000|
-|Jilin|22|220000|
-|Heilongjiang|23|230000|
-|Shanghai|31|310000|
-|Jiangsu|32|320000|
-|Zhejiang|33|330000|
-|Anhui|34|340000|
-|Fujian|35|350000|
-|Jiangxi|36|360000|
-|Shandong|37|370000|
-|Henan|41|410000|
-|Hubei|42|420000|
-|Hunan|43|430000|
-|Guangdong|44|440000|
-|Guangxi|45|450000|
-|Hainan|46|460000|
-|Chongqing|50|500000|
-|Sichuan|51|510000|
-|Guizhou|52|520000|
-|Yunnan|53|530000|
-|Xizang|54|540000|
-|Shaanxi|61|610000|
-|Gansu|62|620000|
-|Qinghai|63|630000|
-|Ningxia|64|640000|
-|Xinjiang|65|650000|
-|Hong Kong S.A.R|81|810000|
-|Taiwan|71|710000|
-|Macao S.A.R|82|820000|
+|Area or area ID\(Suitable for the operations related to Attack Analysis\) |
+|---------------|----------------------------------------------------------------|-------------------------------------------------------------------------|---------------------------------------------------------------------------|
+|Beijing|11|110000|110000|
+|Tianjin|12|120000|120000|
+|Hebei|13|130000|130000|
+|Shanxi|14|140000|140000|
+|Nei Mongol|15|150000|150000|
+|Liaoning|21|210000|210000|
+|Jilin|22|220000|220000|
+|Heilongjiang|23|230000|230000|
+|Shanghai|31|310000|310000|
+|Jiangsu|32|320000|320000|
+|Zhejiang|33|330000|330000|
+|Anhui|34|340000|340000|
+|Fujian|35|350000|350000|
+|Jiangxi|36|360000|360000|
+|Shandong|37|370000|370000|
+|Henan|41|410000|410000|
+|Hubei|42|420000|420000|
+|Hunan|43|430000|430000|
+|Guangdong|44|440000|440000|
+|Guangxi|45|450000|450000|
+|Hainan|46|460000|460000|
+|Chongqing|50|500000|500000|
+|Sichuan|51|510000|510000|
+|Guizhou|52|520000|520000|
+|Yunnan|53|530000|530000|
+|Xizang|54|540000|540000|
+|Shaanxi|61|610000|610000|
+|Gansu|62|620000|620000|
+|Qinghai|63|630000|630000|
+|Ningxia|64|640000|640000|
+|Xinjiang|65|650000|650000|
+|Hong Kong S.A.R|81|810000|810000|
+|Taiwan|71|710000|710000|
+|Macao S.A.R|82|820000|820000|
 
 ## Codes of countries and areas
 
-1 specifies the codes that are suitable for the operations related to the Blocked Regions policy for infrastructure.
+|Country or area|Code\(Suitable for the operations related to Blocked Regions\)
 
-2 specifies the codes that are suitable for the operations related to monitoring reports.
+|CountryId\(Suitable for the operations related to monitoring reports\)
 
-|Country or area|Code1|Country or area ID2|
-|---------------|-----|-------------------|
-|China|1|CN|
-|Australia|2|AU|
-|Japan|3|JP|
-|Thailand|4|TH|
-|India|5|IN|
-|United States|7|US|
-|Germany|8|DE|
-|Netherlands|9|NL|
-|Malaysia|10|MY|
-|Angola|11|AO|
-|South Korea|12|KR|
-|Singapore|13|SG|
-|Kampuchea|14|KH|
-|Philippines|16|PH|
-|Vietnam|17|VN|
-|France|18|FR|
-|Poland|19|PL|
-|Spain|20|ES|
-|Russia|21|RU|
-|Switzerland|22|CH|
-|United Kingdom|23|UK|
-|Italy|24|IT|
-|Czech Republic|25|CZ|
-|Ireland|26|IE|
-|Denmark|27|DK|
-|Portugal|28|PT|
-|Sweden|29|SE|
-|Ghana|30|GH|
-|Turkey|31|TR|
-|Cameroon|32|CM|
-|South Africa|33|ZA|
-|Finland|34|FI|
-|Hungary|35|HU|
-|United Arab Emirates|36|AE|
-|Greece|37|GR|
-|Brazil|38|BR|
-|Austria|39|AT|
-|Jordan|40|JO|
-|Belgium|41|BE|
-|Romania|42|RO|
-|Luxembourg|43|LU|
-|Argentina|44|AR|
-|Uganda|45|UG|
-|Armenia|46|AM|
-|Tanzania|47|TZ|
-|Burundi|48|BI|
-|Uruguay|49|UY|
-|Bulgaria|50|BG|
-|Ukraine|51|UA|
-|Israel|52|IL|
-|Qatar|53|QA|
-|Iraq|54|IQ|
-|Lithuania|55|LT|
-|Moldova|56|MD|
-|Uzbekistan|57|UZ|
-|Slovakia|58|SK|
-|Kazakhstan|59|KZ|
-|Croatia|60|HR|
-|Georgia|61|GE|
-|Estonia|62|EE|
-|Gibraltar|63|GI|
-|Latvia|64|LV|
-|Norway|65|NO|
-|Palestine|66|PS|
-|Cyprus|67|CY|
-|Saudi Arabia|68|SA|
-|Iran|69|IR|
-|Canada|70|CA|
-|American Samoa|71|AS|
-|Syria|72|SY|
-|Kuwait|73|KW|
-|Bahrain|74|BH|
-|Lebanon|75|LB|
-|Oman|76|OM|
-|Azerbaijan|77|AZ|
-|Zambia|78|ZM|
-|Zimbabwe|79|ZW|
-|Democratic Republic of the Congo|80|CD|
-|Serbia|81|RS|
-|Iceland|82|IS|
-|Slovenia|83|SI|
-|Macedonia|84|MK|
-|Liechtenstein|85|LI|
-|Jersey|86|JE|
-|Bosnia and Herzegovina|87|BA|
-|Chile|88|CL|
-|Peru|89|PE|
-|Kyrgyzstan|90|KG|
-|Reunion|91|RE|
-|Tajikistan|92|TJ|
-|Isle of Man|93|IM|
-|Guernsey|94|GG|
-|Malta|95|MT|
-|Libya|96|LY|
-|Yemen|97|YE|
-|Belarus|98|BY|
-|Mayotte|99|YT|
-|Guadeloupe|100|GP|
-|Saint Martin|101|MF|
-|Martinique|102|MQ|
-|Guyana|103|GY|
-|Kosovo|104|XK|
-|Indonesia|105|ID|
-|Northern Mariana Islands|106|MP|
-|Dominican Republic|107|DO|
-|Mexico|108|MX|
-|Guam|109|GU|
-|Nigeria|110|NG|
-|Venezuela|111|VE|
-|Puerto Rico|112|PR|
-|Mongolia|113|MN|
-|New Zealand|114|NZ|
-|Bangladesh|115|BD|
-|Pakistan|116|PK|
-|Papua New Guinea|117|PG|
-|Trinidad and Tobago|118|TT|
-|Lesotho|119|LS|
-|Colombia|120|CO|
-|Costa Rica|121|CR|
-|Ecuador|123|EC|
-|Sri Lanka|124|LK|
-|Egypt|125|EG|
-|British Virgin Islands|126|VG|
-|Jamaica|127|JM|
-|Saint Lucia|128|LC|
-|Cayman Islands|129|KY|
-|Grenada|130|GD|
-|Curacao|131|CW|
-|Panama|132|PA|
-|Barbados|133|BB|
-|The Bahamas|134|BS|
-|Nepal|135|NP|
-|Tokelau|136|TK|
-|Maldives|137|MV|
-|Afghanistan|138|AF|
-|New Caledonia|139|NC|
-|Fiji|140|FJ|
-|Wallis and Futuna Islands|141|WF|
-|Albania|142|AL|
-|San Marino|143|SM|
-|Montenegro|144|ME|
-|East Timor|145|TL|
-|Monaco|146|MC|
-|Guinea|147|GN|
-|Myanmar|148|MM|
-|Greenland|149|GL|
-|Bermuda|150|BM|
-|Saint Vincent and the Grenadines|151|VC|
-|United States Virgin Islands|152|VI|
-|Suriname|153|SR|
-|Saint Barthelemy|154|BL|
-|Haiti|155|HT|
-|Antigua and Barbuda|156|AG|
-|Liberia|157|LR|
-|Kenya|158|KE|
-|Botswana|159|BW|
-|Mozambique|160|MZ|
-|Senegal|161|SN|
-|Madagascar|162|MG|
-|Namibia|163|NA|
-|Côte d'Ivoire|164|CI|
-|Sudan|165|SD|
-|Malawi|166|MW|
-|Gabon|167|GA|
-|Mali|168|ML|
-|Benin|169|BJ|
-|Chad|170|TD|
-|Cabo Verde|171|CV|
-|Rwanda|172|RW|
-|Republic of the Congo|173|CG|
-|The Gambia|174|GM|
-|Mauritius|175|MU|
-|Algeria|176|DZ|
-|Eswatini|177|SZ|
-|Burkina Faso|178|BF|
-|Sierra Leone|179|SL|
-|Somalia|180|SO|
-|Niger|181|NE|
-|Central Africa Republic|182|CF|
-|Togo|183|TG|
-|South Sudan|184|SS|
-|Equatorial Guinea|185|GQ|
-|Seychelles|186|SC|
-|Djibouti|187|DJ|
-|Morocco|188|MA|
-|Mauritania|189|MR|
-|Comoros|190|KM|
-|British Indian Ocean Territory|191|IO|
-|Tunisia|192|TN|
-|Laos|193|LA|
-|Brunei|194|BN|
-|Bhutan|195|BT|
-|Nauru|196|NR|
-|Vanuatu|197|VU|
-|Federated States of Micronesia|198|FM|
-|French Polynesia|199|PF|
-|Tonga|200|TO|
-|Honduras|201|HN|
-|Bolivia|202|BO|
-|El Salvador|203|SV|
-|Guatemala|204|GT|
-|Nicaragua|205|NI|
-|Belize|206|BZ|
-|Paraguay|207|PY|
-|French Guiana|208|GF|
-|Andorra|209|AD|
-|Faroe Islands|210|FO|
-|Niue|211|NU|
-|Kiribati|212|KI|
-|Marshall Islands|213|MH|
-|Palau|214|PW|
-|Samoa|215|WS|
-|Solomon Islands|216|SB|
-|Tuvalu|217|TV|
-|North Korea|218|KP|
-|Vatican City|219|VA|
-|Eritrea|220|ER|
-|Ethiopia|221|ET|
-|Guinea-Bissau|222|GW|
-|Sao Tome and Principe|223|ST|
-|Turkmenistan|224|TM|
-|Cuba|225|CU|
-|Dominica|226|DM|
-|Saint Kitts and Nevis|227|KN|
-|Aruba|228|AW|
-|Falkland Islands|229|FK|
-|Turks and Caicos Islands|230|TC|
-|Caribbean Netherlands|231|BQ|
-|Sint Maarten|232|SX|
-|Montserrat|233|MS|
-|Anguilla|234|AI|
-|Saint Pierre and Miquelon|235|PM|
-|Åland Islands|236|AX|
-|Norfolk Island|237|NF|
-|Antarctica|238|AQ|
-|Cook Islands|239|CK|
-|Christmas Island|240|CX|
-|Other regions in Europe|241|EU|
+|Area or area ID\(Suitable for the operations related to Attack Analysis\) |
+|---------------|----------------------------------------------------------------|------------------------------------------------------------------------|---------------------------------------------------------------------------|
+|China|1|cn|cn|
+|Australia|2|au|au|
+|Japan|3|jp|jp|
+|Thailand|4|th|th|
+|India|5|in|in|
+|United States|7|us|us|
+|Germany|8|de|de|
+|Netherlands|9|nl|nl|
+|Malaysia|10|my|my|
+|Angola|11|ao|ao|
+|South Korea|12|kr|kr|
+|Singapore|13|sg|sg|
+|Kampuchea|14|kh|kh|
+|Philippines|16|ph|ph|
+|Vietnam|17|vn|vn|
+|France|18|fr|fr|
+|Poland|19|pl|pl|
+|Spain|20|es|es|
+|Russia|21|ru|ru|
+|Switzerland|22|ch|ch|
+|United Kingdom|23|uk|uk|
+|Italy|24|it|it|
+|Czech Republic|25|cz|cz|
+|Ireland|26|ie|ie|
+|Denmark|27|dk|dk|
+|Portugal|28|pt|pt|
+|Sweden|29|se|se|
+|Ghana|30|gh|gh|
+|Turkey|31|tr|tr|
+|Cameroon|32|cm|cm|
+|South Africa|33|za|za|
+|Finland|34|fi|fi|
+|Hungary|35|hu|hu|
+|United Arab Emirates|36|ae|ae|
+|Greece|37|gr|gr|
+|Brazil|38|br|br|
+|Austria|39|at|at|
+|Jordan|40|jo|jo|
+|Belgium|41|be|be|
+|Romania|42|ro|ro|
+|Luxembourg|43|lu|lu|
+|Argentina|44|ar|ar|
+|Uganda|45|ug|ug|
+|Armenia|46|am|am|
+|Tanzania|47|tz|tz|
+|Burundi|48|bi|bi|
+|Uruguay|49|uy|uy|
+|Bulgaria|50|bg|bg|
+|Ukraine|51|ua|ua|
+|Israel|52|il|il|
+|Qatar|53|qa|qa|
+|Iraq|54|iq|iq|
+|Lithuania|55|lt|lt|
+|Moldova|56|md|md|
+|Uzbekistan|57|uz|uz|
+|Slovakia|58|sk|sk|
+|Kazakhstan|59|kz|kz|
+|Croatia|60|hr|hr|
+|Georgia|61|ge|ge|
+|Estonia|62|ee|ee|
+|Gibraltar|63|gi|gi|
+|Latvia|64|lv|lv|
+|Norway|65|no|no|
+|Palestine|66|ps|ps|
+|Cyprus|67|cy|cy|
+|Saudi Arabia|68|sa|sa|
+|Iran|69|ir|ir|
+|Canada|70|ca|ca|
+|American Samoa|71|as|as|
+|Syria|72|sy|sy|
+|Kuwait|73|kw|kw|
+|Bahrain|74|bh|bh|
+|Lebanon|75|lb|lb|
+|Oman|76|om|om|
+|Azerbaijan|77|az|az|
+|Zambia|78|zm|zm|
+|Zimbabwe|79|zw|zw|
+|Democratic Republic of the Congo|80|cd|cd|
+|Serbia|81|rs|rs|
+|Iceland|82|is|is|
+|Slovenia|83|si|si|
+|Macedonia|84|mk|mk|
+|Liechtenstein|85|li|li|
+|Jersey|86|je|je|
+|Bosnia and Herzegovina|87|ba|ba|
+|Chile|88|cl|cl|
+|Peru|89|pe|pe|
+|Kyrgyzstan|90|kg|kg|
+|Reunion|91|re|re|
+|Tajikistan|92|tj|tj|
+|Isle of Man|93|im|im|
+|Guernsey|94|gg|gg|
+|Malta|95|mt|mt|
+|Libya|96|ly|ly|
+|Yemen|97|ye|ye|
+|Belarus|98|by|by|
+|Mayotte|99|yt|yt|
+|Guadeloupe|100|gp|gp|
+|Saint Martin|101|mf|mf|
+|Martinique|102|mq|mq|
+|Guyana|103|gy|gy|
+|Kosovo|104|xk|xk|
+|Indonesia|105|id|id|
+|Northern Mariana Islands|106|mp|mp|
+|Dominican Republic|107|do|do|
+|Mexico|108|mx|mx|
+|Guam|109|gu|gu|
+|Nigeria|110|ng|ng|
+|Venezuela|111|ve|ve|
+|Puerto Rico|112|pr|pr|
+|Mongolia|113|mn|mn|
+|New Zealand|114|nz|nz|
+|Bangladesh|115|bd|bd|
+|Pakistan|116|pk|pk|
+|Papua New Guinea|117|pg|pg|
+|Trinidad and Tobago|118|tt|tt|
+|Lesotho|119|ls|ls|
+|Colombia|120|co|co|
+|Costa Rica|121|cr|cr|
+|Ecuador|123|ec|ec|
+|Sri Lanka|124|lk|lk|
+|Egypt|125|eg|eg|
+|British Virgin Islands|126|vg|vg|
+|Jamaica|127|jm|jm|
+|Saint Lucia|128|lc|lc|
+|Cayman Islands|129|ky|ky|
+|Grenada|130|gd|gd|
+|Curacao|131|cw|cw|
+|Panama|132|pa|pa|
+|Barbados|133|bb|bb|
+|The Bahamas|134|bs|bs|
+|Nepal|135|np|np|
+|Tokelau|136|tk|tk|
+|Maldives|137|mv|mv|
+|Afghanistan|138|af|af|
+|New Caledonia|139|nc|nc|
+|Fiji|140|fj|fj|
+|Wallis and Futuna Islands|141|wf|wf|
+|Albania|142|al|al|
+|San Marino|143|sm|sm|
+|Montenegro|144|me|me|
+|East Timor|145|tl|tl|
+|Monaco|146|mc|mc|
+|Guinea|147|gn|gn|
+|Myanmar|148|mm|mm|
+|Greenland|149|gl|gl|
+|Bermuda|150|bm|bm|
+|Saint Vincent and the Grenadines|151|vc|vc|
+|United States Virgin Islands|152|vi|vi|
+|Suriname|153|sr|sr|
+|Saint Barthelemy|154|bl|bl|
+|Haiti|155|ht|ht|
+|Antigua and Barbuda|156|ag|ag|
+|Liberia|157|lr|lr|
+|Kenya|158|ke|ke|
+|Botswana|159|bw|bw|
+|Mozambique|160|mz|mz|
+|Senegal|161|sn|sn|
+|Madagascar|162|mg|mg|
+|Namibia|163|na|na|
+|Côte d'Ivoire|164|ci|ci|
+|Sudan|165|sd|sd|
+|Malawi|166|mw|mw|
+|Gabon|167|ga|ga|
+|Mali|168|ml|ml|
+|Benin|169|bj|bj|
+|Chad|170|td|td|
+|Cabo Verde|171|cv|cv|
+|Rwanda|172|rw|rw|
+|Republic of the Congo|173|cg|cg|
+|The Gambia|174|gm|gm|
+|Mauritius|175|mu|mu|
+|Algeria|176|dz|dz|
+|Eswatini|177|sz|sz|
+|Burkina Faso|178|bf|bf|
+|Sierra Leone|179|sl|sl|
+|Somalia|180|so|so|
+|Niger|181|ne|ne|
+|Central Africa Republic|182|cf|cf|
+|Togo|183|tg|tg|
+|South Sudan|184|ss|ss|
+|Equatorial Guinea|185|gq|gq|
+|Seychelles|186|sc|sc|
+|Djibouti|187|dj|dj|
+|Morocco|188|ma|ma|
+|Mauritania|189|mr|mr|
+|Comoros|190|km|km|
+|British Indian Ocean Territory|191|io|io|
+|Tunisia|192|tn|tn|
+|Laos|193|la|la|
+|Brunei|194|bn|bn|
+|Bhutan|195|bt|bt|
+|Nauru|196|nr|nr|
+|Vanuatu|197|vu|vu|
+|Federated States of Micronesia|198|fm|fm|
+|French Polynesia|199|pf|pf|
+|Tonga|200|to|to|
+|Honduras|201|hn|hn|
+|Bolivia|202|bo|bo|
+|El Salvador|203|sv|sv|
+|Guatemala|204|gt|gt|
+|Nicaragua|205|ni|ni|
+|Belize|206|bz|bz|
+|Paraguay|207|py|py|
+|French Guiana|208|gf|gf|
+|Andorra|209|ad|ad|
+|Faroe Islands|210|fo|fo|
+|Niue|211|nu|nu|
+|Kiribati|212|ki|ki|
+|Marshall Islands|213|mh|mh|
+|Palau|214|pw|pw|
+|Samoa|215|ws|ws|
+|Solomon Islands|216|sb|sb|
+|Tuvalu|217|tv|tv|
+|North Korea|218|kp|kp|
+|Vatican City|219|va|va|
+|Eritrea|220|er|er|
+|Ethiopia|221|et|et|
+|Guinea-Bissau|222|gw|gw|
+|Sao Tome and Principe|223|st|st|
+|Turkmenistan|224|tm|tm|
+|Cuba|225|cu|cu|
+|Dominica|226|dm|dm|
+|Saint Kitts and Nevis|227|kn|kn|
+|Aruba|228|aw|aw|
+|Falkland Islands|229|fk|fk|
+|Turks and Caicos Islands|230|tc|tc|
+|Caribbean Netherlands|231|bq|bq|
+|Sint Maarten|232|sx|sx|
+|Montserrat|233|ms|ms|
+|Anguilla|234|ai|ai|
+|Saint Pierre and Miquelon|235|pm|pm|
+|Åland Islands|236|ax|ax|
+|Norfolk Island|237|nf|nf|
+|Antarctica|238|aq|aq|
+|Cook Islands|239|ck|ck|
+|Christmas Island|240|cx|cx|
+|Other regions in Europe|241|eu|eu|
 
