@@ -15,21 +15,21 @@ Precautions
 
 1.  Log on to the [Anti-DDoS Pro console](https://yundun.console.aliyun.com/?p=ddoscoo).
 
-2.  In the top navigation bar, select the region where your services are deployed.
+2.  In the top navigation bar, select the region where your instance resides.
 
-    -   **Mainland China**: Anti-DDoS Pro
-    -   **Outside Mainland China**: Anti-DDoS Premium
+    -   **Mainland China**: If you select this region, the **Anti-DDoS Pro console** appears.
+    -   **Outside Mainland China**: If you select this region, the **Anti-DDoS Premium console** appears.
+    You can switch the region to configure and manage Anti-DDoS Pro or Anti-DDoS Premium instances. Make sure that you select the required region when you use Anti-DDoS Pro or Anti-DDoS Premium.
+
 3.  In the left-side navigation pane, choose **Mitigation Settings** \> **General Policies**.
 
 4.  On the **General Policies** page, click the **Protection for Website Services** tab. On the tab that appears, select the domain name that you want to configure from the left-side list.
 
 5.  In the **Blocked Regions \(Domain Names\)** section, click **Change Settings**.
 
-    ![Specify the regions that you want to block](https://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/en-US/0986328951/p69848.png)
+    ![Specify the regions that you want to block](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/0986328951/p69848.png)
 
 6.  In the **Configure Blocked Regions** pane, select the regions that you want to block on the **China** or **Outside China** tabs and then click **OK**.
-
-    ![Block region settings](https://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/en-US/5676420061/p143565.png)
 
 7.  Go back to the **Blocked Regions \(Domain Names\)** section and turn on **Status** to apply the configuration.
 
