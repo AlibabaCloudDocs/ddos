@@ -50,15 +50,13 @@ The following table describes the operations for which the codes of administrati
 |Sichuan|51|510000|510000|
 |Guizhou|52|520000|520000|
 |Yunnan|53|530000|530000|
-|Xizang|54|540000|540000|
 |Shaanxi|61|610000|610000|
 |Gansu|62|620000|620000|
 |Qinghai|63|630000|630000|
 |Ningxia|64|640000|640000|
-|Xinjiang|65|650000|650000|
-|Hong Kong S.A.R|81|810000|810000|
+|Hong Kong|81|810000|810000|
 |Taiwan|71|710000|710000|
-|Macao S.A.R|82|820000|820000|
+|Macao|82|820000|820000|
 
 ## Codes of countries and areas
 
