@@ -38,7 +38,6 @@ China
 -   **CN-SHANXI**: Shanxi
 -   **CN-GUANGDONG**: Guangdong
 -   **CN-GUANGXI**: Guangxi
--   **CN-XINJIANG**: Xinjiang
 -   **CN-JIANGSU**: Jiangsu
 -   **CN-JIANGXI**: Jiangxi
 -   **CN-HEBEI**: Hebei
@@ -47,10 +46,9 @@ China
 -   **CN-HAINAN**: Hainan
 -   **CN-HUBEI**: Hubei
 -   **CN-HUNAN**: Hunan
--   **CN-MACAU**: Macao S.A.R
+-   **CN-MACAU**: Macao
 -   **CN-GANSU**: Gansu
 -   **CN-FUJIAN**: Fujian
--   **CN-TIBET**: Xizang
 -   **CN-GUIZHOU**: Guizhou
 -   **CN-LIAONING**: Liaoning
 -   **CN-CHONGQING**: Chongqing
