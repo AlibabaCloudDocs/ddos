@@ -30,7 +30,7 @@
 |RequestId|String|4A8F9980-5ACB-497F-9F15-48E9D6B29028|本次请求的ID。 |
 |RuleConfig|Array of Config| |调度规则的配置信息。 |
 |RuleAction|String|declare|调度动作。取值固定为**declare**，表示宣告路由。 |
-|RuleConditionCnt|String|3|当IDC入口的网络带宽或者报文数量连续超过阈值多少次时，将触发调度规则并开启代播防护。
+|RuleConditionCnt|String|3|从互联网访问IDC的网络带宽或者报文数量连续超过阈值多少次时，将触发调度规则并开启代播防护。
 
  **说明：** 带宽阈值通过**RuleConditionMbps**参数设置，报文数阈值通过**RuleConditionKpps**参数设置。 |
 |RuleConditionKpps|String|10|入方向报文数阈值，单位：Kpps。最小值：**10**。 |
