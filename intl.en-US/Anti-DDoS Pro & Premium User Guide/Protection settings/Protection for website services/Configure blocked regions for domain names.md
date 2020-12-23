@@ -5,13 +5,13 @@ This topic describes how to configure blocked regions \(domain names\) for prote
 -   A website is added to Anti-DDoS Pro or Anti-DDoS Premium and is associated with an instance that uses the enhanced function plan. For more information, see [Add a website](/intl.en-US/Anti-DDoS Pro & Premium User Guide/Provisioning/Use domains/Add a website.md).
 -   Mitigation is enabled in the latest version of Anti-DDoS Pro or Anti-DDoS Premium.
 
-If you configure an Anti-DDoS Pro or Anti-DDoS Premium instance to protect your websites and most requests are sent from regions inside China to your instance, you can block requests from regions outside China. You can also block other regions based on your requirements. To block regions, you only need to enable this feature and specify the regions that you want to block.
+If you configure an Anti-DDoS Pro or Anti-DDoS Premium instance to protect your websites and most requests are sent from regions inside China to your instance, you can block requests from regions outside China. You can also block other regions based on your requirements. To block regions, you need only to enable this feature and specify the regions that you want to block.
 
 Precautions
 
 -   This feature is supported only for websites. We recommend that you configure traffic block policies on the Protection for Infrastructure tab to protect non-website assets. For more information, see [Configure diversion from the origin server](/intl.en-US/Anti-DDoS Pro & Premium User Guide/Protection settings/Protection for infrastructure/Configure diversion from the origin server.md) and [Configure blocked regions](/intl.en-US/Anti-DDoS Pro & Premium User Guide/Protection settings/Protection for infrastructure/Configure blocked regions.md). Only Anti-DDoS Pro supports diversion from the origin server.
--   The specified blocked regions take effect only on domain names. If you want to block regions for individual domain names, you must specify the regions you want to block for each domain name separately.
--   This feature only identifies and filters requests from IP addresses that are in the blocked regions. It cannot reduce the volume of traffic.
+-   The specified blocked regions take effect only on domain names. If you want to block regions for individual domain names, you must separately specify the regions you want to block for each domain name.
+-   This feature identifies and filters only requests from IP addresses that are in the blocked regions. It cannot reduce the volume of traffic.
 
 1.  Log on to the [Anti-DDoS Pro console](https://yundun.console.aliyun.com/?p=ddoscoo).
 
@@ -29,7 +29,7 @@ Precautions
 
     ![Specify the regions that you want to block](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/0986328951/p69848.png)
 
-6.  In the **Configure Blocked Regions** pane, select the regions that you want to block on the **China** or **Outside China** tabs and then click **OK**.
+6.  In the **Configure Blocked Regions** panel, select the regions that you want to block on the **China** or **Outside China** tabs and then click **OK**.
 
 7.  Go back to the **Blocked Regions \(Domain Names\)** section and turn on **Status** to apply the configuration.
 
