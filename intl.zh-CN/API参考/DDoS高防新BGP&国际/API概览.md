@@ -48,6 +48,8 @@
 |[DescribeCnameReuses](/intl.zh-CN/API参考/DDoS高防新BGP&国际/域名接入/DescribeCnameReuses.md)|查询网站业务的CNAME复用信息。|
 |[ModifyCnameReuse](/intl.zh-CN/API参考/DDoS高防新BGP&国际/域名接入/ModifyCnameReuse.md)|为网站业务开启或关闭CNAME复用。|
 |[ModifyHttp2Enable](/intl.zh-CN/API参考/DDoS高防新BGP&国际/域名接入/ModifyHttp2Enable.md)|修改网站业务转发规则的HTTP 2.0开关状态。|
+|[DescribeL7RsPolicy](/intl.zh-CN/API参考/DDoS高防新BGP&国际/域名接入/DescribeL7RsPolicy.md)|查询网站业务转发规则的回源策略。|
+|[ConfigL7RsPolicy]()|为网站业务转发规则设置回源策略。|
 
 ## 端口接入
 
