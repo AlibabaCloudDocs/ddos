@@ -6,8 +6,8 @@ This topic describes the codes of administrative regions in China and codes of c
 
 The following table describes the operations for which the codes of administrative regions in China and codes of countries and areas are required.
 
-|Feature|Operation|Scenario|
-|-------|---------|--------|
+|Feature|Operation|Scenarios|
+|-------|---------|---------|
 |Blocked Regions|[ConfigNetworkRegionBlock](/intl.en-US/API reference/Anti-DDoS Pro & Premium/Protection for infrastructure/ConfigNetworkRegionBlock.md)|Query the countries or areas that are specified by the Countries field and administrative regions in China that are specified by the Provinces field in the Config request parameter.|
 |[DescribeNetworkRegionBlock](/intl.en-US/API reference/Anti-DDoS Pro & Premium/Protection for infrastructure/DescribeNetworkRegionBlock.md)|Query the countries or areas that are specified by the Countries field and administrative regions in China that are specified by the Provinces field in the Config response parameter.|
 |Monitoring reports|[DescribeDomainViewSourceCountries](/intl.en-US/API reference/Anti-DDoS Pro & Premium/Monitoring reports/DescribeDomainViewSourceCountries.md)|Query the country or area that is specified by the CountryId response parameter.|
