@@ -11,6 +11,9 @@ Queries the back-to-origin policies for the forwarding rule of a website.
 |Parameter|Type|Required|Example|Description|
 |---------|----|--------|-------|-----------|
 |Action|String|Yes|DescribeL7RsPolicy|The operation that you want to perform. Set the value to **DescribeL7RsPolicy**. |
+|Domain|String|Yes|www.aliyun.com|The domain name of the website that you want to query.
+
+**Note:** A forwarding rule must be configured for the domain name. You can call the [DescribeDomains](~~91724~~) operation to query the domain names for which the forwarding rules are created. |
 |RegionId|String|No|cn-hangzhou|The region ID of the instance. Valid values:
 
 -   **cn-hangzhou**: mainland China, which indicates an Anti-DDoS Pro instance
@@ -18,9 +21,6 @@ Queries the back-to-origin policies for the forwarding rule of a website.
 |ResourceGroupId|String|No|rg-acfm2pz25js\*\*\*\*|The ID of the resource group to which the instance belongs in Resource Management. This parameter is empty by default, which indicates that the instance belongs to the default resource group.
 
 For more information about resource groups, see [Create a resource group](~~94485~~). |
-|Domain|String|No|www.aliyun.com|The domain name of the website.
-
-**Note:** A forwarding rule must be configured for the domain name. You can call the [DescribeDomains](~~91724~~) operation to query the domain names for which the forwarding rules are created. |
 |RealServers.N|RepeatList|No|1.\*\*\*. \*\*\*.1|The IP address of origin server N that you want to query. |
 
 All Alibaba Cloud API operations must include common request parameters. For more information about common request parameters, see [Common parameters](~~157269~~).
@@ -41,7 +41,7 @@ Valid values: **1** to **100**. Default value: **100**. A server with a higher w
 
 -   **0**: IP address
 -   **1**: domain name |
-|ProxyMode|String|rr|The load balancing algorithm for back-to-origin traffic. Valid values:
+|ProxyMode|String|rr|The load balancing policy for back-to-origin traffic. Valid values:
 
 -   **ip\_hash**: the IP hash algorithm. This algorithm is used to redirect the requests from the same IP address to the same origin server.
 -   **rr**: the round-robin algorithm. This algorithm is used to redirect requests to origin servers in turn.
@@ -58,7 +58,7 @@ http(s)://[Endpoint]/?Action=DescribeL7RsPolicy
 &<Common request parameters>
 ```
 
-Sample success responses
+Sample responses
 
 `XML` format
 
