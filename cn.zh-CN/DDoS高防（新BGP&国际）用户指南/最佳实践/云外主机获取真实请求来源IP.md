@@ -51,13 +51,25 @@
 
     1.  创建文件/etc/sysconfig/modules/toa.modules，并在文件中添加以下内容：
 
-        ```
-        #!/bin/bash
-        if [ -e /lib/modules/`uname -r`/kernel/net/toa/toa.ko ] ;
-        then 
-        modprobe toa > /dev/null 2>&1
-        fi                            
-        ```
+        -   CentOS 7.x系统：
+
+            ```
+            #!/bin/bash
+            if [ -e /lib/modules/`uname -r`/kernel/net/toa/toa.ko.xz ] ;
+            then 
+            modprobe toa > /dev/null 2>&1
+            fi                            
+            ```
+
+        -   CentOS 6.x或Redhat Linux系统：
+
+            ```
+            #!/bin/bash
+            if [ -e /lib/modules/`uname -r`/kernel/net/toa/toa.ko ] ;
+            then 
+            modprobe toa > /dev/null 2>&1
+            fi                            
+            ```
 
     2.  执行以下命令，授予toa.modules文件可执行权限：
 
