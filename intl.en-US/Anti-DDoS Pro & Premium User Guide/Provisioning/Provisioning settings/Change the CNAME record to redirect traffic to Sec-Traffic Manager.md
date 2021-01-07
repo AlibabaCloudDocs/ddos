@@ -6,9 +6,9 @@ A scheduling rule is added by using Sec-Traffic Manager. For more information, s
 
 After you add a scheduling rule by using Sec-Traffic Manager, Sec-Traffic Manager generates a CNAME. To redirect inbound traffic to Sec-Traffic Manager, you must change the CNAME record of the domain name of the website to map the domain name to the CNAME that is assigned by Sec-Traffic Manager.
 
-In the following example, the domain name is managed by [Alibaba Cloud DNS](https://www.alibabacloud.com/product/dns).
+In the following example, your domain name is hosted on [Alibaba Cloud DNS](https://www.alibabacloud.com/product/dns).
 
-If you use third-party DNS services, log on to the system of the DNS provider to modify the DNS records. The following example is for reference only.
+If you use a third-party DNS service, log on to the system of the DNS provider to change the DNS records. The following example is only for reference.
 
 Assume that the domain name that is specified in the scheduling rule is `bgp.ddostest.com`. The following procedure describes how to change and add DNS records in the Alibaba Cloud DNS console.
 
@@ -16,24 +16,18 @@ Assume that the domain name that is specified in the scheduling rule is `bgp.ddo
 
 2.  On the Manage DNS page, find the domain name `ddostest.com` and click **Configure** in the Actions column.
 
-    ![DNS records](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/9197449951/p45866.png)
-
-3.  On the DNS Settings page, find the A record or CNAME record whose Host is **bgp** and click **Edit** in the Actions column.
+3.  On the DNS Settings page, find the A or CNAME record whose Host is **bgp** and click **Edit** in the Actions column.
 
     **Note:** If you cannot find the DNS record that you want to manage in the list, you can click **Add Record** to add the record.
 
-    ![Modify the record](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/9197449951/p45867.png)
-
 4.  In the Edit Record or Add Record panel, set the **Type** parameter to **CNAME** and the **Value** parameter to the CNAME that is assigned by Sec-Traffic Manager.
-
-    ![Change the DNS record](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/9197449951/p45868.png)
 
     To query the CNAME, log on to the [Anti-DDoS Pro](https://yundun.console.aliyun.com/?p=ddoscoo) console and choose **Provisioning** \> **Sec-Traffic Manager**.
 
-    ![General](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/9197449951/p89082.png)
+5.  Click **Confirm** and wait for the settings to take effect.
 
-5.  Click **OK** and wait for the settings to take effect.
+6.  Check whether the website is accessible.
 
-6.  Check whether the website can be accessed.
+    If an exception occurs during website access, see [How do I handle the issues of slow response, high latency, and access failure on websites that are protected by an Anti-DDoS Pro or Anti-DDoS Premium instance?]().
 
 
