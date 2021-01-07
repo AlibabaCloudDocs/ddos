@@ -1,6 +1,6 @@
 # API概览
 
-本文汇总了DDoS高防（新BGP&国际）服务所有可调用的API。
+本文汇总了DDoS高防（新BGP）和DDoS高防（国际）服务所有可调用的API。
 
 **说明：** 本文列举的接口适用于DDoS高防（新BGP）和DDoS高防（国际）服务。
 
@@ -19,12 +19,13 @@
 |API|描述|
 |---|--|
 |[DescribeInstanceIds](/intl.zh-CN/API参考/DDoS高防新BGP&国际/实例/DescribeInstanceIds.md)|查询DDoS高防实例的ID信息。|
-|[DescribeInstances](/intl.zh-CN/API参考/DDoS高防新BGP&国际/实例/DescribeInstances.md)|查询DDoS高防实例的版本和状态信息，例如业务转发状态、到期状态、欠费状态等。|
-|[DescribeInstanceDetails](/intl.zh-CN/API参考/DDoS高防新BGP&国际/实例/DescribeInstanceDetails.md)|查询DDoS高防实例的IP和线路信息。|
-|[DescribeInstanceSpecs](/intl.zh-CN/API参考/DDoS高防新BGP&国际/实例/DescribeInstanceSpecs.md)|查询DDoS高防实例的规格信息。|
-|[DescribeInstanceStatistics](/intl.zh-CN/API参考/DDoS高防新BGP&国际/实例/DescribeInstanceStatistics.md)|查询DDoS高防实例的统计信息，例如已防护的域名、端口数量等。|
+|[DescribeInstances](/intl.zh-CN/API参考/DDoS高防新BGP&国际/实例/DescribeInstances.md)|查询DDoS高防实例的详细信息，包含业务转发状态、到期状态、欠费状态等。|
+|[DescribeInstanceStatus](/intl.zh-CN/API参考/DDoS高防新BGP&国际/实例/DescribeInstanceStatus.md)|查询指定的DDoS高防实例的状态，包含正常、过期、欠费、释放。|
+|[DescribeInstanceDetails](/intl.zh-CN/API参考/DDoS高防新BGP&国际/实例/DescribeInstanceDetails.md)|查询指定的DDoS高防实例的IP和线路信息。|
+|[DescribeInstanceSpecs](/intl.zh-CN/API参考/DDoS高防新BGP&国际/实例/DescribeInstanceSpecs.md)|查询指定的DDoS高防实例的规格信息。|
+|[DescribeInstanceStatistics](/intl.zh-CN/API参考/DDoS高防新BGP&国际/实例/DescribeInstanceStatistics.md)|查询指定的DDoS高防实例的统计信息，例如已防护的域名、端口数量等。|
 |[ModifyInstanceRemark](/intl.zh-CN/API参考/DDoS高防新BGP&国际/实例/ModifyInstanceRemark.md)|修改DDoS高防实例的备注。|
-|[DescribeElasticBandwidthSpec](/intl.zh-CN/API参考/DDoS高防新BGP&国际/实例/DescribeElasticBandwidthSpec.md)|查询DDoS高防（新BGP）实例的可选弹性防护带宽规格。|
+|[DescribeElasticBandwidthSpec](/intl.zh-CN/API参考/DDoS高防新BGP&国际/实例/DescribeElasticBandwidthSpec.md)|查询指定的DDoS高防（新BGP）实例的可选弹性防护带宽规格。|
 |[ModifyElasticBandWidth](/intl.zh-CN/API参考/DDoS高防新BGP&国际/实例/ModifyElasticBandWidth.md)|修改DDoS高防（新BGP）实例的弹性防护带宽。|
 |[DescribeDefenseCountStatistics](/intl.zh-CN/API参考/DDoS高防新BGP&国际/实例/DescribeDefenseCountStatistics.md)|查询DDoS高防（国际）服务的防护次数统计信息，例如可用和已用的高级防护次数。|
 |[ReleaseInstance](/intl.zh-CN/API参考/DDoS高防新BGP&国际/实例/ReleaseInstance.md)|释放某个已经到期的DDoS高防实例。|
