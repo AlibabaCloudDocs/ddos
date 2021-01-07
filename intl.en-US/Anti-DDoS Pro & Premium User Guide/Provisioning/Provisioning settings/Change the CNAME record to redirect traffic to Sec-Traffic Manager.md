@@ -10,7 +10,7 @@ In the following example, the domain name is managed by [Alibaba Cloud DNS](http
 
 If you use third-party DNS services, log on to the system of the DNS provider to modify the DNS records. The following example is for reference only.
 
-Assume that the domain name that is specified in the scheduling rule is `bgp.gftest.top`. The following procedure describes how to change and add DNS records in the Alibaba Cloud DNS console.
+Assume that the domain name that is specified in the scheduling rule is `bgp.ddostest.com`. The following procedure describes how to change and add DNS records in the Alibaba Cloud DNS console.
 
 1.  Log on to the [Alibaba Cloud DNS console](https://dns.console.aliyun.com).
 
