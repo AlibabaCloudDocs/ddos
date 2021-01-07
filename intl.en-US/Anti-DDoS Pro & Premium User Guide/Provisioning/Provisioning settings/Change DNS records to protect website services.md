@@ -36,13 +36,9 @@ Assume that you add the domain name `bgp.ddostest.com` to Anti-DDoS Pro or Anti-
 
 2.  On the Manage DNS page, find the domain name `ddostest.com` and click **Configure** in the Actions column.
 
-    ![DNS Settings](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/9197449951/p45866.png)
-
 3.  On the DNS Settings page, find the A or CNAME record whose Host is **bgp** and click **Edit** in the Actions column.
 
     **Note:** If you cannot find the DNS record that you want to manage in the list, you can click **Add Record** to add the record.
-
-    ![Change the DNS record](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/9197449951/p45867.png)
 
 4.  In the Add Record or Edit Record panel, select a record type and change the record.
 
@@ -50,15 +46,11 @@ Assume that you add the domain name `bgp.ddostest.com` to Anti-DDoS Pro or Anti-
 
         **Note:** To obtain the CNAME, log on to the [Anti-DDoS Pro](https://yundun.console.aliyun.com/?p=ddoscoo) console and choose **Provisioning** \> **Website Config**.
 
-        ![Change the DNS record](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/9197449951/p45868.png)
-
     -   A record: Set the **Type** parameter to **A** and the **Value** parameter to the IP address of the Anti-DDoS Pro or Anti-DDoS Premium instance with which the domain name is associated.
 
         **Note:** To obtain the IP address, log on to the [Anti-DDoS Pro](https://yundun.console.aliyun.com/?p=ddoscoo) console and choose **Provisioning** \> **Website Config**.
 
-        ![A record](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/5197449951/p67888.png)
-
-5.  Click **OK** and wait for the settings to take effect.
+5.  Click **Confirm** and wait for the settings to take effect.
 
 6.  Check whether the website is accessible.
 
