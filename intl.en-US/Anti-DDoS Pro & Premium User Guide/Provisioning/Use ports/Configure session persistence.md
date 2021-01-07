@@ -24,8 +24,6 @@ A port forwarding rule for a non-website service is configured on the Port Confi
 
 5.  In the **Session Persistence** dialog box, set **Timeout Period** and click **Complete**. The timeout period is measured in seconds, and the valid value ranges from 30 to 3600.
 
-    ![Session Persistence](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/3197449951/p49646.png)
-
     After the session persistence feature is enabled, the status of **Session Persistence** changes to **Enabled**.
 
     ![Enabled](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/3058989061/p189964.png)
