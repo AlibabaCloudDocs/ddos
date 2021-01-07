@@ -22,7 +22,7 @@ If you configure your Anti-DDoS Pro or Anti-DDoS Premium instance to protect non
 
 5.  In the **Create Rule** dialog box, configure the following parameters.
 
-    ![Configure a rule](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/7097449951/p46880.png)
+    ![Configure a rule](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/2410999061/p46880.png)
 
     |Parameter|Description|
     |---------|-----------|
