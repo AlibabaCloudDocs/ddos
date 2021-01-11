@@ -1,6 +1,6 @@
 # Obtain the actual source IP addresses of requests to the origin server that is not deployed on Alibaba Cloud
 
-If you use a server in your on-premises data center as the origin server and use Anti-DDoS Pro or Anti-DDoS Premium to protect your service, service requests are first scrubbed by Anti-DDoS Pro or Anti-DDoS Premium and then forwarded to the origin server. The origin server cannot directly obtain the actual source IP addresses of the requests. This topic describes how to obtain the actual source IP addresses by configuring the TOA module on the origin server.
+If you use a server in your on-premises data center as the origin server and use Anti-DDoS Pro or Anti-DDoS Premium to protect your service, requests are first scrubbed by Anti-DDoS Pro or Anti-DDoS Premium and then forwarded to the origin server. The origin server cannot directly obtain the actual source IP addresses of the requests. This topic describes how to obtain the actual source IP addresses by configuring the TOA module on the origin server.
 
 The method in this topic applies to the following operating systems:
 
@@ -8,7 +8,7 @@ The method in this topic applies to the following operating systems:
 -   CentOS 6.x
 -   CentOS 7.x
 
-## Precautions
+**Note:**
 
 -   You can use the method described in this topic in a test environment. If the service stably runs in the test environment, use the method in the production environment.
 -   We recommend that you keep the original kernel of the operating system. If a restart fails, switch to the original kernel to restore your service.
@@ -46,17 +46,30 @@ The method in this topic applies to the following operating systems:
 
         -   If kernel-firmware runs 2.6.32-696.13.2.el6.centos.plus.toa or later, use only the preceding second command.
         -   If dependency issues occur during installation, add the `--nodeps` parameter to the `rpm` command.
+        -   If the kernel version is later than the TOA version, add the `--force` parameter to the `rpm` command to forcibly install the kernel.
 3.  Configure the TOA module to make sure that it is automatically loaded when the operating system is started.
 
     1.  Create the /etc/sysconfig/modules/toa.modules file and add the following content to the file:
 
-        ```
-        #! /bin/bash
-        if [ -e /lib/modules/`uname -r`/kernel/net/toa/toa.ko ] ;
-        then 
-        modprobe toa > /dev/null 2>&1
-        fi                            
-        ```
+        -   CentOS 7.x
+
+            ```
+            #! /bin/bash
+            if [ -e /lib/modules/`uname -r`/kernel/net/toa/toa.ko.xz ] ;
+            then 
+            modprobe toa > /dev/null 2>&1
+            fi                            
+            ```
+
+        -   CentOS 6.x or Red Hat Enterprise Linux:
+
+            ```
+            #! /bin/bash
+            if [ -e /lib/modules/`uname -r`/kernel/net/toa/toa.ko ] ;
+            then 
+            modprobe toa > /dev/null 2>&1
+            fi                            
+            ```
 
     2.  Run the following command to grant execute permissions to the toa.modules file:
 
@@ -68,7 +81,7 @@ The method in this topic applies to the following operating systems:
 
     After the installation is complete, the origin server can obtain the actual source IP addresses of requests.
 
-    If the actual source IP addresses are not obtained, run the `lsmod|grep toa` command to check the loading status of the TOA module. If the TOA module is not loaded, run the `modprobe toa` command to manually load it. After the TOA module is loaded, you can view server access logs and retest whether the origin server can obtain the actual source IP addresses.
+    If the actual source IP addresses are not obtained, run the `lsmod|grep toa` command to check the loading status of the TOA module. If the TOA module is not loaded, run the `modprobe toa` command to manually load it. After the TOA module is loaded, you can view server access logs and test whether the origin server can obtain the actual source IP addresses again.
 
 
 ## FAQ
