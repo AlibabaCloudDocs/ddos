@@ -1,27 +1,37 @@
 # Enable traffic rerouting to an on-demand instance
 
-This topic describes how to enable traffic rerouting to an on-demand Anti-DDoS Origin instance in the Anti-DDoS console.
+If you purchase an on-demand Anti-DDoS Origin instance and DDoS attacks are detected on your server in a data center, you can manually enable traffic rerouting to the instance. After the attacks stop, you can disable traffic rerouting to the instance.
+
+## Prerequisites
 
 An on-demand Anti-DDoS Origin instance is purchased.
 
-**Note:** On-demand instances protect servers in on-premises data centers outside China and cloud assets based on CIDR blocks. You must contact sales personnel to purchase on-demand instances.
+**Note:** On-demand instances protect servers in on-premises data centers outside mainland China and cloud assets based on Classless Inter-Domain Routing \(CIDR\) blocks. You must contact sales personnel to purchase on-demand instances.
 
-1.  Log on to the [Anti-DDoS console](https://yundun.console.aliyun.com/?p=ddosnext).
+## Procedure
 
-2.  In the top navigation bar, select the region where your on-demand Anti-DDoS Origin instance resides.
+1.  Log on to the [Anti-DDoS console](https://yundun.console.aliyun.com/?p=ddos).
 
-3.  On the Assets page, click the **Others** tab.
+2.  In the upper-left corner of the top navigation bar, select a region.
 
-    **Note:** The **Others** tab shows the IP addresses of all your on-demand Anti-DDoS Origin instances. If you have not purchased on-demand instances, the **Others** tab contains no IP addresses.
+3.  On the **Assets** page, click the **Others** tab.
 
-4.  Find the IP address of your on-demand instance and click **Start Redirection** in the Operation column. In the message that appears, click OK.
+    The **Others** tab lists the IP addresses of the on-demand Anti-DDoS Origin instances that you have purchased in the current region. If you have purchased on-demand instances in other regions or have not purchased any on-demand instances, no data is displayed on the **Others** tab.
 
-    ![Start Redirection](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/7218858951/p130268.png)
+4.  Find the on-demand instance for which you want to enable traffic rerouting and click **Start Redirection** in the Operation column. In the message that appears, click **OK**.
+
+    After you enable traffic rerouting to the on-demand instance, the instance enters the **Redirecting** state. This indicates that the system is rerouting the traffic destined for protected assets to mitigate DDoS attacks.
+
+    If you want to stop traffic rerouting to the on-demand instance, click **Pause Redirection** in the Operation column.
+
+    **Note:** After you click Pause Redirection, the system no longer reroutes the traffic destined for protected assets to your on-demand instance and does not mitigate DDoS attacks for your assets.
 
 
-If traffic rerouting is enabled, the IP address of your on-demand instance is in the **Redirecting** state. This indicates that the system is rerouting the traffic of protected assets to mitigate DDoS attacks. If you want to stop rerouting the traffic, click **Pause Redirection** in the Operation column.
+## References
 
-**Note:** After you click Pause Redirection, the system no longer reroutes the traffic of protected assets to your on-demand instance and does not mitigate DDoS attacks for your assets.
+You can also enable the Automatic \(NetFlow\) mode to automatically reroute traffic to an on-demand instance. You can enable or disable traffic rerouting to an on-demand instance based on the NetFlow information of your servers in data centers and rules that you specified. For more information about how to enable the Automatic \(NetFlow\) mode, see [Enable the Automatic \(NetFlow\) mode](/intl.en-US/Anti-DDoS Origin User Guide/On-demand protection/Enable the Automatic (NetFlow) mode.md).
 
-![Pause Redirection](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/7218858951/p130266.png)
+## Related API operations
+
+-   [ModifyOnDemaondDefenseStatus](/intl.en-US/API reference/Anti-DDoS Origin/API reference (2017-11-20)/On-demand instances/ModifyOnDemaondDefenseStatus.md)
 
