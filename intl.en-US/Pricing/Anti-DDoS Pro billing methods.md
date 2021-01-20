@@ -25,7 +25,7 @@ For more information, visit the [Anti-DDoS pricing page](https://www.alibabaclou
 
 The following table lists the prices of an Anti-DDoS Pro instance based on different basic protection bandwidths when the default specifications are used. An Anti-DDoS Pro instance provides a standard function plan and an enhanced function plan. The prices vary based on the function plan. For more information about the standard function plan and the enhanced function plan, see [Function plan](/intl.en-US/Pricing/Function plan.md).
 
-**Note:** If the protection bandwidths listed in the following table cannot meet your business needs, [submit a ticket](https://workorder-intl.console.aliyun.com/?#/ticket/add/?productId=80).
+**Note:** If the protection bandwidths listed in the following table cannot meet your business needs, [ticket](https://workorder-intl.console.aliyun.com/?#/ticket/add/?productId=80).
 
 |Basic protection bandwidth|Line|Price \(standard function plan\)|Price \(enhanced function plan\)|
 |--------------------------|----|--------------------------------|--------------------------------|
@@ -41,7 +41,7 @@ The following table lists the default specifications of an Anti-DDoS Pro instanc
 
 |Specification|Description|Default value|Price for upgrades|
 |-------------|-----------|-------------|------------------|
-|Number of protected ports|The number of TCP and UDP ports that the instance protects.|50|Every 5 ports: USD 7.5/month|
+|Number of protected ports|The number of TCP and UDP ports that the instance protects.|50|Every 5 ports: USD 37.5/month|
 |Number of protected domains|The number of HTTP and HTTPS domains that the instance protects.|50 **Note:** The domain names that you add to an instance can belong to up to five top-level domain names.
 
 |-   Standard function plan: USD 4.5/month for every 10 domains
@@ -49,7 +49,7 @@ The following table lists the default specifications of an Anti-DDoS Pro instanc
 
 **Note:** For every plan you purchase, the total number of supported top-level domains increases by one. |
 |Clean bandwidth|The maximum bandwidth that the instance uses to handle services if no attacks are launched.|100 Mbit/s|1 Mbit/s: USD 15/month**Note:** If your clean bandwidth exceeds 600 Mbit/s, you are charged a monthly fee of USD 11/month per Mbit/s for the extra bandwidth usage. |
-|Queries per second \(QPS\)|The maximum number of HTTP and HTTPS requests that the instance can concurrently process per second if no attacks are launched.|3,000 QPS|Every 100 QPS: USD 1.5/month|
+|Queries per second \(QPS\)|The maximum number of HTTP and HTTPS requests that the instance can concurrently process per second if no attacks are launched.|3,000 QPS|Every 100 QPS: USD 150/month|
 
 ## Burstable protection \(pay-as-you-go on a daily basis\)
 
@@ -113,7 +113,7 @@ If you do not renew the subscription of an Anti-DDoS Pro instance within seven d
 
 **Note:** If Anti-DDoS Pro stops forwarding traffic, your services may be interrupted. We recommend that you read the notifications of instance expiration and renew the subscription of instances at the earliest opportunity. Alternatively, you can enable auto-renewal.
 
-![Notification of instance expiration](https://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/en-US/9830937951/p76372.png)
+![Notification of instance expiration](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/9830937951/p76372.png)
 
 -   Impact on instance configurations:
 
