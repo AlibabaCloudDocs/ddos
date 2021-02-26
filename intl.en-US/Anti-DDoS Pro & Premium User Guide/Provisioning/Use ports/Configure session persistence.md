@@ -29,7 +29,7 @@ A port forwarding rule for a non-website service is configured on the Port Confi
     ![Enabled](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/3058989061/p189964.png)
 
 
-## Configure session persistence or health checks for multiple rules
+## Configure session persistence and health checks for more than one forwarding rule
 
 1.  Log on to the [Anti-DDoS Pro console](https://yundun.console.aliyun.com/?p=ddoscoo).
 
@@ -41,19 +41,24 @@ A port forwarding rule for a non-website service is configured on the Port Confi
 
 3.  In the left-side navigation pane, choose **Provisioning** \> **Port Config**.
 
-4.  On the Port Config page, select the target instance, click **Batch Operations** below the rule list, and select **Session Persistence/Health Check Settings**.
+4.  On the **Port Config** page, select the instance that you want to manage and choose **Batch Operations** \> **Create Session Persistence/Health Check Settings**.
 
-5.  In the Create Session/Health Settings dialog box, enter the required information and click **Create**.
+    ![Create Session Persistence/Health Check Settings](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/6567989061/p190055.png)
 
-    ![Create Session/Health Settings dialog box](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/3197449951/p69485.png)
+5.  In the **Create Session Persistence/Health Check Settings** dialog box, enter the required information as shown in the sample file and click **OK**.
 
-    **Note:** You can export health check settings to a TXT file, modify the settings in the TXT file, and then copy and paste the settings to the Create Session/Health Settings dialog box. In the TXT file, keep the settings of all rules in the same format. For more information, see [Export multiple port configurations](/intl.en-US/Anti-DDoS Pro & Premium User Guide/Provisioning/Use ports/Export multiple port configurations.md).
+    ![Session Persistence/Health Check Settings](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/3197449951/p69485.png)
 
-    The formats of session persistence and health check settings are described as follows:
+    **Note:** You can export health check settings to a TXT file, modify the settings in the TXT file, and then copy and paste the settings to the Create Session Persistence/Health Check Settings dialog box. For more information, see [Export multiple port configurations](/intl.en-US/Anti-DDoS Pro & Premium User Guide/Provisioning/Use ports/Export multiple port configurations.md).
 
-    -   Enter the session persistence and health check settings of each forwarding rule in each row.
-    -   Health check settings include the following fields left to right: forwarding port, forwarding protocol \(TCP or UDP\), session persistence period, health check type, port, response timeout period, check interval, unhealthy threshold, healthy threshold, path, and domain. The session persistence period is measured in seconds, and the valid value ranges from 30 to 3600. Fields are separated with spaces. For more information about the fields, see [Health check parameters](#d8e40).
-    -   The forwarding port must be specified in forwarding rules.
-    -   Health check types include TCP, HTTP, and UDP. If a forwarding rule uses UDP, we recommend that you configure a UDP health check. If a forwarding rule uses TCP, we recommend that you configure a TCP health check \(Layer 4 health check\) or HTTP health check \(Layer 7 health check\).
+    The formats of session persistence and health check settings must meet the following requirements:
+
+    -   Each line represents a forwarding rule.
+    -   From left to right, the fields in each forwarding rule indicate the following parameters: forwarding port, forwarding protocol, session persistence timeout period, health check type, port, response timeout period, check interval, unhealthy threshold, healthy threshold, path, and domain name. The supported forwarding protocols are TCP, HTTP, and UDP. The session persistence timeout period is measured in seconds, and the valid value ranges from 30 to 3600. Fields are separated by spaces.
+
+        For more information, see [\#d8e32](#d8e32).
+
+    -   Forwarding ports must be the ports that are specified in forwarding rules.
+    -   If a forwarding rule uses UDP, we recommend that you configure a UDP health check. If a forwarding rule uses TCP, we recommend that you configure a TCP health check \(Layer 4 health check\) or HTTP health check \(Layer 7 health check\).
     -   If you configure an HTTP health check, the Path parameter is required, but the Domain parameter is optional.
 
