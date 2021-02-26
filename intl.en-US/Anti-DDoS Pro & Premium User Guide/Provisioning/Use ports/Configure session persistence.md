@@ -55,9 +55,6 @@ A port forwarding rule for a non-website service is configured on the Port Confi
 
     -   Each line represents a forwarding rule.
     -   From left to right, the fields in each forwarding rule indicate the following parameters: forwarding port, forwarding protocol, session persistence timeout period, health check type, port, response timeout period, check interval, unhealthy threshold, healthy threshold, path, and domain name. The supported forwarding protocols are TCP, HTTP, and UDP. The session persistence timeout period is measured in seconds, and the valid value ranges from 30 to 3600. Fields are separated by spaces.
-
-        For more information, see [\#d8e32](#d8e32).
-
     -   Forwarding ports must be the ports that are specified in forwarding rules.
     -   If a forwarding rule uses UDP, we recommend that you configure a UDP health check. If a forwarding rule uses TCP, we recommend that you configure a TCP health check \(Layer 4 health check\) or HTTP health check \(Layer 7 health check\).
     -   If you configure an HTTP health check, the Path parameter is required, but the Domain parameter is optional.
