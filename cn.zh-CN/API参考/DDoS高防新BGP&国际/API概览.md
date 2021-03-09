@@ -4,15 +4,11 @@
 
 **说明：** 本文列举的接口适用于DDoS高防（新BGP）和DDoS高防（国际）服务。
 
--   在使用以下接口前，请确认您已经购买了DDoS高防（新BGP）或DDoS高防（国际）实例。
+在使用以下接口前，请确认您已经购买了DDoS高防（新BGP）或DDoS高防（国际）实例。具体操作，请参见[开通DDoS高防（新BGP&国际）](/cn.zh-CN/DDoS高防（新BGP&国际）用户指南/开通DDoS高防（新BGP&国际）.md)。
 
-    具体操作，请参见[开通DDoS高防（新BGP&国际）](/cn.zh-CN/DDoS高防（新BGP&国际）用户指南/开通DDoS高防（新BGP&国际）.md)。
+如无特殊说明，以下接口同时适用于DDoS高防（新BGP）和DDoS高防（国际），个别仅适用于DDoS高防（新BGP）或DDoS高防（国际）的接口，在相关接口文档中有说明。关于DDoS高防（新BGP）和DDoS高防（国际）的功能差异，请参见[DDoS高防（新BGP）和DDoS高防（国际）的功能差异](/cn.zh-CN/阿里云DDoS防护产品介绍/什么是DDoS高防（新BGP&国际）.md)。
 
--   如无特殊说明，以下接口同时适用于DDoS高防（新BGP）和DDoS高防（国际），个别仅适用于DDoS高防（新BGP）或DDoS高防（国际）的接口，在相关接口文档中有说明。
-
-    关于DDoS高防（新BGP）和DDoS高防（国际）的功能差异，请参见[DDoS高防（新BGP）和DDoS高防（国际）的功能差异](/cn.zh-CN/阿里云DDoS防护产品介绍/什么是DDoS高防（新BGP&国际）.md)。
-
--   更多API资源，请访问[API Explorer](https://api.aliyun.com)。
+更多API资源，请访问[OpenAPI开发者门户](https://next.api.aliyun.com/api/ddoscoo/2020-01-01)。
 
 ## 实例
 
