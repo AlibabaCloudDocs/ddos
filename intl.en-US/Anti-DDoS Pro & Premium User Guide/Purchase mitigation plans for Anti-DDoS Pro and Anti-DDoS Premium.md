@@ -23,11 +23,11 @@ You can purchase an Anti-DDoS instance based on the regions where your workloads
 
 ## Purchase an Anti-DDoS Pro instance
 
-1.  Go to the[Anti-DDoS Pro buy page](https://common-buy-intl.aliyun.com/?commodityCode=ddoscoo_intl#/buy) and log on with your Alibaba Cloud account.
+1.  Go to the [Anti-DDoS Pro buy page](https://common-buy-intl.aliyun.com/?commodityCode=ddoscoo_intl#/buy) and log on with your Alibaba Cloud account.
 
 2.  Configure an Anti-DDoS Pro instance that meets your service requirements.
 
-    ![Buy page](https://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/en-US/8632097951/p69110.png)
+    ![Buy page](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/8632097951/p69110.png)
 
     |Parameter|Description|
     |---------|-----------|
@@ -66,11 +66,11 @@ If more than 50 domain names or 5 top-level domain names require protection, you
 
 ## Purchase an insurance plan or unlimited plan for an Anti-DDoS Premium instance
 
-1.  Go to the[Anti-DDoS Premium buy page](https://common-buy-intl.aliyun.com/?commodityCode=ddosDip_intl#/buy) and log on with your Alibaba Cloud account.
+1.  Go to the [Anti-DDoS Premium buy page](https://common-buy-intl.aliyun.com/?commodityCode=ddosDip_intl#/buy) and log on with your Alibaba Cloud account.
 
 2.  Configure an Anti-DDoS Premium instance that meets your service requirements.
 
-    ![Anti-DDoS Premium buy page](https://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/en-US/9632097951/p128732.png)
+    ![Anti-DDoS Premium buy page](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/9632097951/p128732.png)
 
     |Parameter|Description|
     |---------|-----------|
@@ -110,11 +110,11 @@ If more than 10 domain names or 1 top-level domain name require protection, you 
 
 ## Purchase an MCA plan for an Anti-DDoS Premium instance
 
-1.  Go to the[Anti-DDoS Premium buy page](https://common-buy-intl.aliyun.com/?commodityCode=ddosDip_intl#/buy) and log on with your Alibaba Cloud account.
+1.  Go to the [Anti-DDoS Premium buy page](https://common-buy-intl.aliyun.com/?commodityCode=ddosDip_intl#/buy) and log on with your Alibaba Cloud account.
 
 2.  Configure an Anti-DDoS Premium instance that meets your service requirements.
 
-    ![Buy page of an MCA plan for an Anti-DDoS Premium instance](https://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/en-US/9632097951/p130853.png)
+    ![Buy page of an MCA plan for an Anti-DDoS Premium instance](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/9632097951/p130853.png)
 
     |Parameter|Description|
     |---------|-----------|
@@ -136,11 +136,11 @@ If more than 10 domain names or 1 top-level domain name require protection, you 
 
 ## Purchase a Sec-MCA plan for an Anti-DDoS Premium instance
 
-1.  Go to the[Anti-DDoS Premium buy page](https://common-buy-intl.aliyun.com/?commodityCode=ddosDip_intl#/buy) and log on with your Alibaba Cloud account.
+1.  Go to the [Anti-DDoS Premium buy page](https://common-buy-intl.aliyun.com/?commodityCode=ddosDip_intl#/buy) and log on with your Alibaba Cloud account.
 
 2.  Configure the specifications of the Anti-DDoS Premium MCA plan based on your service requirements.
 
-    ![Buy page of a Sec-MCA plan for an Anti-DDoS Premium instance](https://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/en-US/9632097951/p130854.png)
+    ![Buy page of a Sec-MCA plan for an Anti-DDoS Premium instance](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/9632097951/p130854.png)
 
     |Parameter|Description|
     |---------|-----------|
@@ -183,7 +183,7 @@ You can estimate the actual bandwidth usage based on the traffic statistics coll
 
 For example, you use Anti-DDoS Pro or Anti-DDoS Premium to protect your website. If no attacks are launched against your website, Anti-DDoS Pro or Anti-DDoS Premium forwards user traffic to the origin server. However, if your website is under attack, Anti-DDoS Pro or Anti-DDoS Premium blocks malicious traffic and forwards only user traffic to the origin server. Therefore, the ECS console displays only statistics about inbound and outbound user traffic that flows through the origin server. If your workloads are deployed on multiple origin servers, you must calculate the sum of the traffic volumes on all origin servers.
 
-![Normal traffic](https://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/en-US/9632097951/p38045.png)
+![Normal traffic](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/9632097951/p38045.png)
 
 For example, you want to connect three websites to an Anti-DDoS Pro or Anti-DDoS Premium instance. The peak of the outbound user traffic on each website is 50 Mbit/s or lower. The total bandwidth required by the three websites is 150 Mbit/s or lower. In this case, make sure that the clean bandwidth of the purchased instance is higher than 150 Mbit/s.
 
