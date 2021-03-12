@@ -15,7 +15,7 @@ The following table describes the operations for which the codes of administrati
 |[DescribePortViewSourceCountries](/intl.en-US/API reference/Anti-DDoS Pro & Premium/Monitoring reports/DescribePortViewSourceCountries.md)|Query the country or area that is specified by the CountryId response parameter.|
 |[DescribePortViewSourceProvinces](/intl.en-US/API reference/Anti-DDoS Pro & Premium/Monitoring reports/DescribePortViewSourceProvinces.md)|Query the administrative region in China that is specified by the ProvinceId response parameter.|
 |Attack Analysis|[DescribeDDosEventArea]()|Query the administrative region in China, country, or area that is specified by the Area response parameter.|
-|[DescribeDDosEventSrcIp]()|Query the administrative region in China, country, or area that is specified by theAreaId response parameter.|
+|[DescribeDDosEventSrcIp]()|Query the administrative region in China, country, or area that is specified by the AreaId response parameter.|
 
 ## Codes of administrative regions in China
 
