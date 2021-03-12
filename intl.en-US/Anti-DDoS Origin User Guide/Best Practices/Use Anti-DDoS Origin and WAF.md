@@ -14,9 +14,9 @@ This topic describes how to use Anti-DDoS Origin and Web Application Firewall \(
 
     **Note:** When you purchase an Anti-DDoS Origin Enterprise instance, you must select a region. Make sure that the Anti-DDoS Origin Enterprise instance and the ECS instance reside in the same region.
 
--   A WAF instance is purchased. For more information, see [Purchase a WAF instance](/intl.en-US/Pricing/Subscription/Purchase a WAF instance.md).
+-   A WAF instance is purchased. For more information, see [Purchase a WAF instance](/intl.en-US/Billing and Service Activation/Subscription/Purchase a WAF instance.md).
 
-You can use Anti-DDoS Origin Enterprise to mitigate DDoS attacks for your website. If your website encounters web attacks and HTTP flood attacks, we recommend that you use WAF to protect your website. For more information about WAF, see [What is Alibaba Cloud WAF?](/intl.en-US/Product Introduction/What is Alibaba Cloud WAF?.md).
+You can use Anti-DDoS Origin Enterprise to mitigate DDoS attacks for your website. If your website encounters web attacks and HTTP flood attacks, we recommend that you use WAF to protect your website. For more information about WAF, see [What is WAF?](/intl.en-US/Product Introduction/What is WAF?.md).
 
 If you use Anti-DDoS Origin Enterprise and WAF to protect your website, you must add your website to WAF and then add the IP address of the WAF instance to Anti-DDoS Origin Enterprise for protection. In this case, all service traffic is first scrubbed by WAF, and only normal traffic is forwarded to the origin server. Attack traffic, such as DDoS attacks, web attacks, and HTTP flood attacks, is blocked.
 
@@ -34,7 +34,7 @@ If you use Anti-DDoS Origin Enterprise and WAF to protect your website, you must
 
     4.  Click **Add Domain Name**.
 
-        You can add your website in two modes: CNAME and transparent proxy. In CNAME mode, the website can be automatically or manually added. In transparent proxy mode, only origin servers that are deployed in the China \(Beijing\) region are supported.**xx****xx**
+        You can add your website in two modes: CNAME and transparent proxy. In CNAME mode, the website can be automatically or manually added. In transparent proxy mode, only origin servers that are deployed in the China \(Beijing\) region are supported.
 
         This topic describes how to add a website in CNAME mode.
 
@@ -45,20 +45,20 @@ If you use Anti-DDoS Origin Enterprise and WAF to protect your website, you must
         You must specify the following website parameters:
 
         -   **Domain Name**: Enter the domain name of the website.
-        -   **Protocol Type**: Select the protocol supported by the website. If your website supports **HTTPS**, select HTTPS and upload the certificate after you add the website. For more information, see [Upload HTTPS certificates](/intl.en-US/Website Access/Website access with CNAME/Add domain names.md).
+        -   **Protocol Type**: Select the protocol supported by the website. If your website supports **HTTPS**, select HTTPS and upload the certificate after you add the website. For more information, see [Upload HTTPS certificates](/intl.en-US/Website Access/Website access with CNAME/Add websites.md).
         -   **Destination Server \(IP Address\)**: Select **IP** and enter the public IP address of the ECS instance.
-        -   **Destination Server Port**: After you specify Protocol Type, the server port is automatically matched. You can also specify a non-standard server port. For more information, see [Supported custom ports](/intl.en-US/Website Access/Supported custom ports.md).
+        -   **Destination Server Port**: After you specify Protocol Type, the server port is automatically matched. You can also specify a non-standard server port. For more information, see [View the ports supported by WAF](/intl.en-US/Website Access/View the ports supported by WAF.md).
         -   **Does a layer 7 proxy \(DDoS Protection/CDN, etc.\) exist in front of WAF**: Select **No**.
 
             If you configure a Layer 7 proxy such as Anti-DDoS Pro, Anti-DDoS Premium, or Content Delivery Network \(CDN\) before WAF, the requests from a client are forwarded to the Layer 7 proxy before they reach WAF. Anti-DDoS Origin Enterprise is not a Layer 7 proxy. In this case, select No.
 
-        For more information about the website parameters, see [Add domain names](/intl.en-US/Website Access/Website access with CNAME/Add domain names.md).
+        For more information about the website parameters, see [Add domain names](/intl.en-US/Website Access/Website access with CNAME/Add websites.md).
 
     7.  Click **Completed. Return to the website list**.
 
         A CNAME record is created for the added website. You can obtain the CNAME record of WAF from the website list.
 
-        ![CNAME record ](https://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/en-US/7801549951/p97144.png)
+        ![CNAME record ](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/7801549951/p97144.png)
 
     8.  Run the `ping the CNAME record of WAF` command on your computer to obtain the IP address of the WAF instance.
 
@@ -68,7 +68,7 @@ If you use Anti-DDoS Origin Enterprise and WAF to protect your website, you must
 
 3.  Change the DNS settings to resolve the domain name of the website to the CNAME record of WAF that you obtain in Step 1.
 
-    For more information, see [Change the DNS settings](/intl.en-US/Website Access/Website access with CNAME/Change the DNS settings.md).
+    For more information, see [Change a DNS record](/intl.en-US/Website Access/Website access with CNAME/Change a DNS record.md).
 
     After you change the DNS settings, all requests sent to your website are forwarded to WAF for traffic scrubbing. WAF blocks web attacks and HTTP flood attacks and only forwards normal traffic to the origin server.
 
