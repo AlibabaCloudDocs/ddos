@@ -13,17 +13,17 @@ Modifies the blocked regions that are configured in the Blocked Regions \(Domain
 |Action|String|Yes|ModifyWebAreaBlock|The operation that you want to perform. Set the value to **ModifyWebAreaBlock**. |
 |Domain|String|Yes|www.aliyun.com|The domain name.
 
- **Note:** A forwarding rule must be configured for the domain name. You can call the [DescribeDomains](~~91724~~) operation to query all domain names. |
+**Note:** A forwarding rule must be configured for the domain name. You can call the [DescribeDomains](~~91724~~) operation to query all domain names. |
 |RegionId|String|No|cn-hangzhou|The region ID of the Anti-DDos Pro or Anti-DDos Premium instance. Valid values:
 
- -   **cn-hangzhou**: mainland China, which indicates an Anti-DDoS Pro instance
+-   **cn-hangzhou**: mainland China, which indicates an Anti-DDoS Pro instance
 -   **ap-southeast-1**: outside mainland China, which indicates an Anti-DDoS Premium instance |
 |ResourceGroupId|String|No|default|The ID of the resource group to which the instance belongs in Resource Management. This parameter is empty by default, which indicates that the instance belongs to the default resource group. |
 |Regions.N|RepeatList|No|CN-SHANGHAI|The name of region N to block. If you do not specify this parameter, the Blocked Regions \(Domain Names\) policy is disabled. Valid values:
 
- China
+China
 
- -   **CN-SHANGHAI**: Shanghai
+-   **CN-SHANGHAI**: Shanghai
 -   **CN-YUNNAN**: Yunnan
 -   **CN-INNERMONGOLIA**: Nei Mongol
 -   **CN-BEIJING**: Beijing
@@ -56,9 +56,9 @@ Modifies the blocked regions that are configured in the Blocked Regions \(Domain
 -   **CN-HONGKONG**: Hong Kong
 -   **CN-HEILONGJIANG**: Heilongjiang
 
- Outside China
+Outside China
 
- -   **OVERSEAS-ASIA**: Asia \(except China\)
+-   **OVERSEAS-ASIA**: Asia \(except China\)
 -   **OVERSEAS-EUROPE**: Europe
 -   **OVERSEAS-NAMERICA**: North America
 -   **OVERSEAS-SAMERICA**: South America
@@ -82,18 +82,18 @@ Sample request
 
 ```
 http(s)://[Endpoint]/? Action=ModifyWebAreaBlock
-
+            
 ```
 
-正常返回示例
+Sample success responses
 
-`XML` 格式
+`XML` format
 
 ```
 <ModifyWebAreaBlockResponse>         <RequestId>0bcf28g5-d57c-11e7-9bs0-d89d6717dxbc</RequestId> </ModifyWebAreaBlockResponse>
 ```
 
-`JSON` 格式
+`JSON` format
 
 ```
 {     "RequestId": "0bcf28g5-d57c-11e7-9bs0-d89d6717dxbc" }
@@ -101,5 +101,5 @@ http(s)://[Endpoint]/? Action=ModifyWebAreaBlock
 
 ## 错误码
 
-访问[错误中心](https://error-center.alibabacloud.com/status/product/ddoscoo)查看更多错误码。
+For a list of error codes, visit the [API Error Center](https://error-center.alibabacloud.com/status/product/ddoscoo)
 
